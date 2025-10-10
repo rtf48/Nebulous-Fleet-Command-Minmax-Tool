@@ -54,10 +54,10 @@
     </xsl:template>
     <xsl:template match="Teams">
         <div id="teams">
-            <xsl:apply-templates select="TeamReportOfShipBattleReport"></xsl:apply-templates>
+            <xsl:apply-templates select="TeamReportOfShipBattleReportCraftBattleReport"></xsl:apply-templates>
         </div>
     </xsl:template>
-    <xsl:template match="TeamReportOfShipBattleReport">
+    <xsl:template match="TeamReportOfShipBattleReportCraftBattleReport">
         <div class="team">
             <h2>
                 <xsl:choose>
@@ -66,11 +66,11 @@
                 </xsl:choose>
             </h2>
             <div class="players">
-                <xsl:apply-templates select=".//AARPlayerReportOfShipBattleReport"></xsl:apply-templates>
+                <xsl:apply-templates select=".//AARPlayerReportOfShipBattleReportCraftBattleReport"></xsl:apply-templates>
             </div>
         </div>
     </xsl:template>
-    <xsl:template match="AARPlayerReportOfShipBattleReport">
+    <xsl:template match="AARPlayerReportOfShipBattleReportCraftBattleReport">
         <div class="player">
             <h3>
                 <span class="name">
