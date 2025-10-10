@@ -1185,18 +1185,22 @@
         <xsl:variable name="mk82">Stock/Mk82 Railgun</xsl:variable>
         <xsl:variable name="sgm1">Stock/SGM-1 Body</xsl:variable>
         <xsl:variable name="ea12">Stock/EA12 Chaff Decoy</xsl:variable>
+        <xsl:variable name="ea14">Stock/EA14 Chaff Decoy</xsl:variable>
         <xsl:variable name="ea20">Stock/EA20 Flare Decoy</xsl:variable>
         <xsl:variable name="ea99">Stock/EA99 Active Decoy</xsl:variable>
         <xsl:variable name="sgmh3">Stock/SGM-H-3 Body</xsl:variable>
         <xsl:variable name="sgm3">Stock/SGT-3 Body</xsl:variable>
         <xsl:variable name="sgm2">Stock/SGM-2 Body</xsl:variable>
         <xsl:variable name="sgmh2">Stock/SGM-H-2 Body</xsl:variable>
+        <xsl:variable name="sdm1">Stock/SDM-1 Body</xsl:variable>
+        <xsl:variable name="sdm2">Stock/SDM-2 Body</xsl:variable>
         <xsl:variable name="mk68">Stock/Mk68 Cannon</xsl:variable>
         <xsl:variable name="mk610">Stock/Mk610 Beam Turret</xsl:variable>
         <xsl:variable name="mk600">Stock/Mk600 Beam Cannon</xsl:variable>
         <xsl:variable name="mk550">Stock/Mk550 Mass Driver</xsl:variable>
         <xsl:variable name="e20">Stock/E20 'Lighthouse' Illuminator</xsl:variable>
         <xsl:variable name="j360">Stock/J360 Jammer</xsl:variable>
+        <xsl:variable name="j75">Stock/J75 Jammer</xsl:variable>
         <xsl:variable name="l50">Stock/L50 Laser Dazzler</xsl:variable>
         <xsl:variable name="t81">Stock/T81 Plasma Cannon</xsl:variable>
         <xsl:variable name="c53">Stock/C53 Cannon</xsl:variable>
@@ -1216,10 +1220,12 @@
         <xsl:variable name="p20">Stock/P20 Flak PDT</xsl:variable>
         <xsl:variable name="t30">Stock/T30 Cannon</xsl:variable>
         <xsl:variable name="te45">Stock/TE45 Mass Driver</xsl:variable>
-        <xsl:variable name="c60">Stock/C60 Cannon</xsl:variable>
+        <xsl:variable name="c90">Stock/C90 Cannon</xsl:variable>
         <xsl:variable name="c65">Stock/C65 Cannon</xsl:variable>
         <xsl:variable name="j15">Stock/J15 Jammer</xsl:variable>
         <xsl:variable name="mk65">Stock/Mk65 Cannon</xsl:variable>
+        <xsl:variable name="c56">Stock/C56 Cannon</xsl:variable>
+        <xsl:variable name="c30">Stock/C30 Cannon</xsl:variable>
         <img class="weapon-image">
             <xsl:attribute name="src">
                 <xsl:choose>
@@ -1241,18 +1247,22 @@
                     <xsl:when test="$name = $mk82">resources/modules/mk82.svg</xsl:when>
                     <xsl:when test="$name = $sgm1">resources/modules/sgm1.svg</xsl:when>
                     <xsl:when test="$name = $ea12">resources/modules/ea12.svg</xsl:when>
+                    <xsl:when test="$name = $ea14">resources/modules/ea12.svg</xsl:when>
                     <xsl:when test="$name = $ea20">resources/modules/ea20.svg</xsl:when>
                     <xsl:when test="$name = $ea99">resources/modules/ea99.svg</xsl:when>
                     <xsl:when test="$name = $sgmh3">resources/modules/sgm-h-3.svg</xsl:when>
                     <xsl:when test="$name = $sgm3">resources/modules/sgm3.svg</xsl:when>
                     <xsl:when test="$name = $sgm2">resources/modules/sgm2.svg</xsl:when>
                     <xsl:when test="$name = $sgmh2">resources/modules/sgm-h-2.svg</xsl:when>
+                    <xsl:when test="$name = $sdm1">resources/modules/sdm1.svg</xsl:when>
+                    <xsl:when test="$name = $sdm2">resources/modules/sdm2.svg</xsl:when>
                     <xsl:when test="$name = $mk68">resources/modules/mk68.svg</xsl:when>
                     <xsl:when test="$name = $mk610">resources/modules/mk610.svg</xsl:when>
                     <xsl:when test="$name = $mk600">resources/modules/mk600.svg</xsl:when>
                     <xsl:when test="$name = $mk550">resources/modules/mk550.svg</xsl:when>
                     <xsl:when test="$name = $e20">resources/modules/e20.svg</xsl:when>
                     <xsl:when test="$name = $j360">resources/modules/j360.svg</xsl:when>
+                    <xsl:when test="$name = $j75">resources/modules/j360.svg</xsl:when>
                     <xsl:when test="$name = $l50">resources/modules/l50.svg</xsl:when>
                     <xsl:when test="$name = $t81">resources/modules/t81.svg</xsl:when>
                     <xsl:when test="$name = $c53">resources/modules/c53.svg</xsl:when>
@@ -1272,10 +1282,12 @@
                     <xsl:when test="$name = $p20">resources/modules/p20.svg</xsl:when>
                     <xsl:when test="$name = $t30">resources/modules/t30.svg</xsl:when>
                     <xsl:when test="$name = $te45">resources/modules/te45.svg</xsl:when>
-                    <xsl:when test="$name = $c60">resources/modules/c60.svg</xsl:when>
+                    <xsl:when test="$name = $c90">resources/modules/c90.svg</xsl:when>
                     <xsl:when test="$name = $c65">resources/modules/c65.svg</xsl:when>
                     <xsl:when test="$name = $j15">resources/modules/j15.svg</xsl:when>
                     <xsl:when test="$name = $mk65">resources/modules/mk65.svg</xsl:when>
+                    <xsl:when test="$name = $c56">resources/modules/c53.svg</xsl:when>
+                    <xsl:when test="$name = $c30">resources/modules/c30.svg</xsl:when>
                     <xsl:otherwise></xsl:otherwise>
                 </xsl:choose>
             </xsl:attribute>
@@ -1291,9 +1303,13 @@
                     <xsl:when test="$name=$cm4r">weapon-image straight</xsl:when>
                     <xsl:when test="$name=$cm4m">weapon-image straight</xsl:when>
                     <xsl:when test="$name=$cm4">weapon-image straight</xsl:when>
-                    <xsl:when test="$name=$c60">weapon-image straight</xsl:when>
+                    <xsl:when test="$name=$c90">weapon-image straight</xsl:when>
                     <xsl:when test="$name=$c65">weapon-image straight</xsl:when>
                     <xsl:when test="$name=$te45">weapon-image straight</xsl:when>
+                    <xsl:when test="$name=$c56">weapon-image straight</xsl:when>
+                    <xsl:when test="$name=$sdm1">weapon-image straight</xsl:when>
+                    <xsl:when test="$name=$sdm2">weapon-image straight</xsl:when>
+                    <xsl:when test="$name=$c30">weapon-image straight</xsl:when>
                     <xsl:otherwise>weapon-image</xsl:otherwise>
                 </xsl:choose>
             </xsl:attribute>

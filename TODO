@@ -1,0 +1,31 @@
+
+
+Missing assets:
+- SDMs
+- All craft
+- Levy DC
+- C30
+- EA14
+- C56
+- R1/r3
+- KBU/CBU/FBU
+- Warbler
+- Submunition containers
+- Support containers
+
+Outdated assets:
+- LN
+- CLN
+- Tug
+
+Missing fields:
+- Everything carrier related
+- Craft defense?
+
+
+Things to ask Lys:
+- <noparse> tags in engagement list
+- Missile component string table pointers ($MISSILEWARHEAD_SHORT_HEIMPACT, etc)
+
+Needs testing:
+- C56 image
