@@ -1,31 +1,29 @@
 
 
 Missing assets:
-- SDMs
-- All craft
 - Levy DC
-- C30
-- EA14
-- C56
-- R1/r3
 - KBU/CBU/FBU
-- Warbler
-- Submunition containers
-- Support containers
+- Jman DC
 
 Outdated assets:
-- LN
 - CLN
 - Tug
 
 Missing fields:
-- Everything carrier related
-- Craft defense?
+- Craft compressed
+- Craft overview
+- Void Superiority
+- Strike Warfare
 
 
 Things to ask Lys:
 - <noparse> tags in engagement list
 - Missile component string table pointers ($MISSILEWARHEAD_SHORT_HEIMPACT, etc)
+- c54
+- perch=s0
+- $MODMIS$ on submn
 
 Needs testing:
-- C56 image
+- ANS Skiff
+- weird sizes
+- LN DC

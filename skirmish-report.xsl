@@ -107,6 +107,9 @@
             <div class="ships">
                 <xsl:apply-templates select="Ships/ShipBattleReport"></xsl:apply-templates>
             </div>
+            <div class="craft">
+                <xsl:apply-templates select="Craft/CraftBattleReport"></xsl:apply-templates>
+            </div>
         </div>
     </xsl:template>
     <xsl:template match="BaseColor|StripeColor">
@@ -1165,6 +1168,151 @@
             </div>
         </div>
     </xsl:template>
+
+    
+    <xsl:template match="CraftBattleReport">
+        <div class="ship">
+            <xsl:attribute name="data-ship-id">
+                <xsl:value-of select="../../PlayerID"></xsl:value-of>-<xsl:value-of select="position()"></xsl:value-of>
+            </xsl:attribute>
+            <h4>
+                <xsl:value-of select="DesignName"></xsl:value-of>
+            </h4>
+            <div class="summary">
+                <div class="craft-icon">
+                    <xsl:choose>
+                        <xsl:when test="./FrameKey = 'Stock/OSP Interceptor'">
+                            <img><xsl:attribute name="src">resources/craft/cuda.svg</xsl:attribute></img>
+                        </xsl:when>
+                        <xsl:when test="./FrameKey = 'Stock/OSP Bomber'">
+                            <img><xsl:attribute name="src">resources/craft/sturgeon.svg</xsl:attribute></img>
+                        </xsl:when>
+                        <xsl:when test="./FrameKey = 'Stock/OSP Scout'">
+                            <img><xsl:attribute name="src">resources/craft/pike.svg</xsl:attribute></img>
+                        </xsl:when>
+                        <xsl:when test="./FrameKey = 'Stock/OSP Skiff'">
+                            <img><xsl:attribute name="src">resources/craft/halberd.svg</xsl:attribute></img>
+                        </xsl:when>
+                        <xsl:when test="./FrameKey = 'Stock/AN Interceptor'">
+                            <img><xsl:attribute name="src">resources/craft/tanto.svg</xsl:attribute></img>
+                        </xsl:when>
+                        <xsl:when test="./FrameKey = 'Stock/AN Bomber'">
+                            <img><xsl:attribute name="src">resources/craft/claymore.svg</xsl:attribute></img>
+                        </xsl:when>
+                        <xsl:when test="./FrameKey = 'Stock/AN SEWAC'">
+                            <img><xsl:attribute name="src">resources/craft/sewac.svg</xsl:attribute></img>
+                        </xsl:when>
+                        <xsl:when test="./FrameKey = 'Stock/AN Skiff'">
+                            <img><xsl:attribute name="src">resources/craft/halberd.svg</xsl:attribute></img>
+                        </xsl:when>
+                        <xsl:otherwise></xsl:otherwise>
+                    </xsl:choose>
+                </div>
+                <div class="stats">
+                    <xsl:apply-templates select="." mode="basic-stats"></xsl:apply-templates>
+                </div>
+            </div>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="CraftBattleReport" mode="details">
+        <div>
+            <xsl:attribute name="data-ship-id">
+                <xsl:value-of select="../../PlayerID"></xsl:value-of>-<xsl:value-of select="count(../CraftBattleReport[. = current()]/preceding-sibling::*)+1"></xsl:value-of>
+            </xsl:attribute>
+            <xsl:attribute name="class">
+                <!-- who knows what goes here tbh -->
+            </xsl:attribute>
+            <div class="summary">
+                <div class="craft-icon">
+                    <xsl:choose>
+                        <xsl:when test="DesignKey = 'Stock/OSP Interceptor'">
+                            <img><xsl:attribute name="src">resources/craft/cuda.svg</xsl:attribute></img>
+                        </xsl:when>
+                        <xsl:otherwise></xsl:otherwise>
+                    </xsl:choose>
+                </div>
+                <div class="stats">
+                    <h2>
+                        <xsl:value-of select="DesignName"></xsl:value-of>
+                    </h2>
+                    <xsl:apply-templates select="." mode="basic-stats"></xsl:apply-templates>
+                </div>
+                <div class="stats">
+                    <xsl:apply-templates select="." mode="efficiency-ratings" />
+                </div>
+            </div>
+            <xsl:apply-templates select="StrikeWarfare" />
+            <xsl:apply-templates select="VoidSuperiority" />
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="CraftBattleReport" mode="basic-stats">
+        <dl class="basic-stats">
+            <div class="stat carried">
+                <dt>Carried</dt>
+                <dd>
+                    <xsl:value-of select="Carried"></xsl:value-of>
+                </dd>
+            </div>
+            <div class="stat lost">
+                <dt>Lost</dt>
+                <dd>
+                    <xsl:value-of select="Lost"></xsl:value-of>
+                </dd>
+            </div>
+            <div class="stat survival-rate">
+                <dt>Survival&#x00A0;Rate</dt>
+                <dd>
+                    <!-- TODO: Calculate survival rate -->
+                </dd>
+            </div>
+            <div class="stat sorties-flown">
+                <dt>Sorties&#x00A0;Flown</dt>
+                <dd>
+                    <xsl:value-of select="SortiesFlown"></xsl:value-of>
+                </dd>
+            </div>
+            <div class="stat distance-travelled">
+                <dt>Distance&#x00A0;Travelled</dt>
+                <dd>
+                    <xsl:value-of
+                        select="format-number(TotalDistanceTravelled div 100, '###,###.##')"></xsl:value-of>
+                    <xsl:text>&#x00A0;km</xsl:text>
+                </dd>
+            </div>
+            <div class="stat damage-dealt">
+                <dt>Damage&#x00A0;Dealt</dt>
+                <dd>
+                    <xsl:value-of select="format-number(TotalDamageDealt, '###,###')"></xsl:value-of>
+                </dd>
+            </div>
+        </dl>
+    </xsl:template>
+    <xsl:template match="CraftBattleReport" mode="efficiency-ratings">
+        <h4>Overall Efficiency Ratings</h4>
+        <dl class="efficiency-ratings">
+            <div class="stat strike-warfare">
+                <dt>
+                    Strike Warfare
+                </dt>
+                <xsl:call-template name="efficiency-rating-gauge">
+                    <xsl:with-param name="section" select="StrikeReport" />
+                </xsl:call-template>
+            </div>
+            <div class="stat void-superiority">
+                <dt>
+                    Void Superiority
+                </dt>
+                <xsl:call-template name="efficiency-rating-gauge">
+                    <xsl:with-param name="section" select="SpaceSuperiorityReport" />
+                </xsl:call-template>
+            </div>
+        </dl>
+    </xsl:template>
+
+
+
     <xsl:template name="weapon-image">
         <xsl:param name="name"/>
         <xsl:variable name="e90">Stock/E90 'Blanket' Jammer</xsl:variable>
@@ -1213,10 +1361,14 @@
         <xsl:variable name="cm4r">Stock/Rocket Container</xsl:variable>
         <xsl:variable name="cm4m">Stock/Mine Container</xsl:variable>
         <xsl:variable name="cm4">Stock/CM-4 Body</xsl:variable>
+        <xsl:variable name="cm4sub">$MODMIS$/CM-400 Container</xsl:variable>
+        <xsl:variable name="cms4">Stock/CM-S-4 Body</xsl:variable>
         <xsl:variable name="m30">Stock/S3 Mine</xsl:variable>
         <xsl:variable name="m30net">Stock/S3 Net Mine</xsl:variable>
         <xsl:variable name="m30sprint">Stock/S3 Sprint Mine</xsl:variable>
+        <xsl:variable name="r1">Stock/S0 Rocket</xsl:variable>
         <xsl:variable name="r2">Stock/S1 Rocket</xsl:variable>
+        <xsl:variable name="r3">Stock/S3 Rocket</xsl:variable>
         <xsl:variable name="p20">Stock/P20 Flak PDT</xsl:variable>
         <xsl:variable name="t30">Stock/T30 Cannon</xsl:variable>
         <xsl:variable name="te45">Stock/TE45 Mass Driver</xsl:variable>
@@ -1224,7 +1376,7 @@
         <xsl:variable name="c65">Stock/C65 Cannon</xsl:variable>
         <xsl:variable name="j15">Stock/J15 Jammer</xsl:variable>
         <xsl:variable name="mk65">Stock/Mk65 Cannon</xsl:variable>
-        <xsl:variable name="c56">Stock/C56 Cannon</xsl:variable>
+        <xsl:variable name="c54">Stock/C54 Cannon</xsl:variable>
         <xsl:variable name="c30">Stock/C30 Cannon</xsl:variable>
         <img class="weapon-image">
             <xsl:attribute name="src">
@@ -1275,10 +1427,14 @@
                     <xsl:when test="$name = $cm4r">resources/modules/cm4r.svg</xsl:when>
                     <xsl:when test="$name = $cm4m">resources/modules/cm4m.svg</xsl:when>
                     <xsl:when test="$name = $cm4">resources/modules/cm4.svg</xsl:when>
+                    <xsl:when test="$name = $cm4sub">resources/modules/cm4r.svg</xsl:when>
+                    <xsl:when test="$name = $cms4">resources/modules/cm4.svg</xsl:when>
                     <xsl:when test="$name = $m30">resources/modules/m30.svg</xsl:when>
                     <xsl:when test="$name = $m30net">resources/modules/m30.svg</xsl:when>
                     <xsl:when test="$name = $m30sprint">resources/modules/m30.svg</xsl:when>
                     <xsl:when test="$name = $r2">resources/modules/r2.svg</xsl:when>
+                    <xsl:when test="$name = $r1">resources/modules/r1.svg</xsl:when>
+                    <xsl:when test="$name = $r3">resources/modules/r3.svg</xsl:when>
                     <xsl:when test="$name = $p20">resources/modules/p20.svg</xsl:when>
                     <xsl:when test="$name = $t30">resources/modules/t30.svg</xsl:when>
                     <xsl:when test="$name = $te45">resources/modules/te45.svg</xsl:when>
@@ -1286,7 +1442,7 @@
                     <xsl:when test="$name = $c65">resources/modules/c65.svg</xsl:when>
                     <xsl:when test="$name = $j15">resources/modules/j15.svg</xsl:when>
                     <xsl:when test="$name = $mk65">resources/modules/mk65.svg</xsl:when>
-                    <xsl:when test="$name = $c56">resources/modules/c53.svg</xsl:when>
+                    <xsl:when test="$name = $c54">resources/modules/c53.svg</xsl:when>
                     <xsl:when test="$name = $c30">resources/modules/c30.svg</xsl:when>
                     <xsl:otherwise></xsl:otherwise>
                 </xsl:choose>
@@ -1303,13 +1459,17 @@
                     <xsl:when test="$name=$cm4r">weapon-image straight</xsl:when>
                     <xsl:when test="$name=$cm4m">weapon-image straight</xsl:when>
                     <xsl:when test="$name=$cm4">weapon-image straight</xsl:when>
+                    <xsl:when test="$name=$cm4sub">weapon-image straight</xsl:when>
+                    <xsl:when test="$name=$cms4">weapon-image straight</xsl:when>
                     <xsl:when test="$name=$c90">weapon-image straight</xsl:when>
                     <xsl:when test="$name=$c65">weapon-image straight</xsl:when>
                     <xsl:when test="$name=$te45">weapon-image straight</xsl:when>
-                    <xsl:when test="$name=$c56">weapon-image straight</xsl:when>
+                    <xsl:when test="$name=$c54">weapon-image straight</xsl:when>
                     <xsl:when test="$name=$sdm1">weapon-image straight</xsl:when>
                     <xsl:when test="$name=$sdm2">weapon-image straight</xsl:when>
                     <xsl:when test="$name=$c30">weapon-image straight</xsl:when>
+                    <xsl:when test="$name=$r1">weapon-image straight</xsl:when>
+                    <xsl:when test="$name=$r3">weapon-image straight</xsl:when>
                     <xsl:otherwise>weapon-image</xsl:otherwise>
                 </xsl:choose>
             </xsl:attribute>

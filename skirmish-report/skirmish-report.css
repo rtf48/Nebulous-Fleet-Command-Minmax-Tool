@@ -216,11 +216,22 @@ h4 {
     order: 3;
     display: flex;
 }
-.ship .summary .stat.damage-dealt {
+.ship .summary .stat.carried {
     order: 4;
     display: flex;
 }
-
+.ship .summary .stat.lost {
+    order: 5;
+    display: flex;
+}
+.ship .summary .stat.damage-dealt {
+    order: 6;
+    display: flex;
+}
+.ship .summary .stat.sorties-flown {
+    order: 7;
+    display: flex;
+}
 
 .ship.details .summary {
     gap: 3%;
@@ -546,4 +557,16 @@ h4 {
 
 .ship.details.lineship .stats {
     flex-basis: 45%;
+}
+
+.craft-icon img {
+    width: 40%;
+    height: auto;
+    overflow: visible;
+    flex-basis: 50%;
+    align-self: center;
+    margin-top: 2em;
+    margin-left: 2em;
+
+
 }

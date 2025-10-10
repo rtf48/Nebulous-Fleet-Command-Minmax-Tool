@@ -86,6 +86,7 @@ function ui() {
 function reportUi() {
     const ships = document.querySelectorAll(".ship:not(.details)");
 
+
     ships.forEach((ship) => {
         ship.addEventListener("click", (e) => {
             ships.forEach((s) => s.classList.remove("selected"));
@@ -102,6 +103,6 @@ function reportUi() {
 
         });
     });
-    
+
     ships.item(0).dispatchEvent(new Event("click"));
 }
