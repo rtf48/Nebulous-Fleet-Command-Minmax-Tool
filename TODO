@@ -2,7 +2,6 @@
 
 Missing assets:
 - Levy DC
-- KBU/CBU/FBU
 - Jman DC
 
 Outdated assets:
@@ -10,20 +9,17 @@ Outdated assets:
 - Tug
 
 Missing fields:
-- Craft compressed
-- Craft overview
 - Void Superiority
-- Strike Warfare
 
 
 Things to ask Lys:
-- <noparse> tags in engagement list
-- Missile component string table pointers ($MISSILEWARHEAD_SHORT_HEIMPACT, etc)
-- c54
-- perch=s0
-- $MODMIS$ on submn
+- <noparse> tags in engagement list (might need fix)
+- Missile component string table pointers ($MISSILEWARHEAD_SHORT_HEIMPACT, etc) (might need fix)
+- c54 (fine)
+- perch=s0 (fine)
+- $MODMIS$ on submn (fine)
+- CBU brackets (might need fix)
 
 Needs testing:
 - ANS Skiff
-- weird sizes
 - LN DC
