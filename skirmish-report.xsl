@@ -1452,6 +1452,7 @@
         <xsl:variable name="allied_team" select="ancestor::TeamReportOfShipBattleReportCraftBattleReport/TeamID"/>
         <xsl:variable name="owner_id" select="ancestor::AARPlayerReportOfShipBattleReportCraftBattleReport/PlayerID"/>
         <div class = "engagement-header">
+        <xsl:attribute name="style">width: 50%;</xsl:attribute>
             <h4>
                 Engagement <xsl:value-of select="EngagementID"/>
                 <xsl:text> - </xsl:text>
@@ -1471,6 +1472,7 @@
                 <xsl:choose>
                     <xsl:when test="$allied_team = 'TeamA'">
                         <div class="craft-group">
+                            <xsl:attribute name="style">transform: scaleX(-1);</xsl:attribute>
                             <xsl:apply-templates select="TeamAParticipants/Participant">
                                 <xsl:with-param name="color" select="'rgb(55, 180, 230)'"/>
                                 <xsl:with-param name="design" select="ancestor::CraftBattleReport/DesignKey"/>
@@ -1482,10 +1484,22 @@
                                 <xsl:with-param name="color" select="'red'"/>
                                 <xsl:with-param name="design" select="ancestor::CraftBattleReport/DesignKey"/>
                             </xsl:apply-templates>
+                            <xsl:call-template name="draw-circle"></xsl:call-template>
+                            <xsl:call-template name="draw-circle"></xsl:call-template>
+                            <xsl:call-template name="draw-circle"></xsl:call-template>
+                            <xsl:call-template name="draw-circle"></xsl:call-template>
+                            <xsl:call-template name="draw-circle"></xsl:call-template>
+                            <xsl:call-template name="draw-circle"></xsl:call-template>
+                            <xsl:call-template name="draw-circle"></xsl:call-template>
+                            <xsl:call-template name="draw-circle"></xsl:call-template>
+                            <xsl:call-template name="draw-circle"></xsl:call-template>
+                            <xsl:call-template name="draw-circle"></xsl:call-template>
+                            <xsl:call-template name="draw-circle"></xsl:call-template>
                         </div>
                     </xsl:when>
                     <xsl:otherwise>
                         <div class="craft-group">
+                            <xsl:attribute name="style">transform: scaleX(-1);</xsl:attribute>
                             <xsl:apply-templates select="TeamBParticipants/Participant">
                                 <xsl:with-param name="color" select="'rgb(55, 180, 230)'"/>
                                 <xsl:with-param name="design" select="ancestor::CraftBattleReport/DesignKey"/>
@@ -1498,9 +1512,20 @@
                                 <xsl:with-param name="color" select="'red'"/>
                                 <xsl:with-param name="design" select="ancestor::CraftBattleReport/DesignKey"/>
                             </xsl:apply-templates>
+                            <xsl:call-template name="draw-circle"></xsl:call-template>
+                            <xsl:call-template name="draw-circle"></xsl:call-template>
+                            <xsl:call-template name="draw-circle"></xsl:call-template>
+                            <xsl:call-template name="draw-circle"></xsl:call-template>
+                            <xsl:call-template name="draw-circle"></xsl:call-template>
+                            <xsl:call-template name="draw-circle"></xsl:call-template>
+                            <xsl:call-template name="draw-circle"></xsl:call-template>
+                            <xsl:call-template name="draw-circle"></xsl:call-template>
+                            <xsl:call-template name="draw-circle"></xsl:call-template>
+                            <xsl:call-template name="draw-circle"></xsl:call-template>
                         </div>
                     </xsl:otherwise>
                 </xsl:choose>
+                
             </div>
             <div class="stats craft-stats">
                 <div>
@@ -1521,15 +1546,13 @@
                         <xsl:when test="$allied_team = 'TeamA'">
                             <xsl:value-of select="count(TeamAParticipants/Participant[./OwnerId= $owner_id and ./SaveKey = ancestor::CraftBattleReport/DesignKey])" />
                             <xsl:if test="count(TeamAParticipants/Participant[./SaveKey != ancestor::CraftBattleReport/DesignKey]) > 0">
-                                        (+                                <xsl:value-of select="count(TeamAParticipants/Participant[./SaveKey != ancestor::CraftBattleReport/DesignKey])" />
-)
+                                (+<xsl:value-of select="count(TeamAParticipants/Participant[./SaveKey != ancestor::CraftBattleReport/DesignKey])" />)
                             </xsl:if>
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:value-of select="count(TeamBParticipants/Participant[./OwnerId= $owner_id and ./SaveKey = ancestor::CraftBattleReport/DesignKey])" />
                             <xsl:if test="count(TeamBParticipants/Participant[./SaveKey != ancestor::CraftBattleReport/DesignKey]) > 0">
-                                        (+                                <xsl:value-of select="count(TeamBParticipants/Participant[./SaveKey != ancestor::CraftBattleReport/DesignKey])" />
-)
+                                (+<xsl:value-of select="count(TeamBParticipants/Participant[./SaveKey != ancestor::CraftBattleReport/DesignKey])" />)
                             </xsl:if>
                         </xsl:otherwise>
                     </xsl:choose>
@@ -1548,8 +1571,8 @@
             </div>
         </div>
     </xsl:template>
-    <xsl:template match="Participant">
-        <xsl:param name="color" select="'white'"/>
+    <xsl:template match="Participant" name="draw-circle">
+        <xsl:param name="color" select="'black'"/>
         <xsl:param name="design" select="true()"/>
             <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="20" cy="20" r="20" fill="{$color}" stroke="black" stroke-width="2"/>

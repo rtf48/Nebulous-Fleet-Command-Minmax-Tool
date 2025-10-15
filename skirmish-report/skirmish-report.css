@@ -590,27 +590,31 @@ h4 {
 
 .participants {
     display: flex;
-    flex-wrap: wrap;
     gap: 5px;
+    justify-content: center;
+
 }
 
 .craft-group {
-    width: 30%;
-    flex-wrap: wrap;
-    background-color: aliceblue;
+    width:45%;
 }
+
+
 
 .engagement {
     display: flex;
-    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-end;
+
 }
 
 
 .craft-stats {
-    display: inline-flex;
-    flex-direction: column;
-    width: fit-content;
-    flex: 0 0 auto;
-    background-color: red;
+    flex-direction: column;    
+    width: fit-content;        
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    white-space: nowrap;
 }
 
