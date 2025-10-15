@@ -1271,7 +1271,7 @@
                 </div>
             </div>
             <xsl:apply-templates select="StrikeReport" />
-            <xsl:apply-templates select="VoidSuperiority" />
+            <xsl:apply-templates select="SpaceSuperiorityReport" />
         </div>
     </xsl:template>
     
@@ -1354,21 +1354,41 @@
             </div>
         </div>
     </xsl:template>
+    <xsl:template match="SpaceSuperiorityReport">
+        <div class="void-superiority breakdown">
+            <h2>
+                Area Breakdown: Void Superiority -<xsl:text> </xsl:text>
+                <span>
+                    <xsl:attribute name="style">
+                        color: <xsl:call-template name="efficiency-color"><xsl:with-param name="efficiency" select="Rating"/></xsl:call-template>
+                    </xsl:attribute>
+                    <xsl:call-template name="efficiency-label-long"><xsl:with-param name='efficiency' select='Rating' /></xsl:call-template>
+                </span>
+            </h2>
+            <div class="void-superiority weapons">
+                <xsl:apply-templates select="GeneralWeapons/WeaponReport"/>
+            </div>
+            <div class="engagement-log">
+                <xsl:apply-templates select="EngagementLog/CraftEngagementReport"/>
+            </div>
+        </div>
+    </xsl:template>
+    
     <xsl:template match="WeaponReport">
         <xsl:choose>
-                    <xsl:when test="@xsi:type='CraftMissileReport'">
-                        <xsl:call-template name="missile-report">
-                            <xsl:with-param name="section" select="."/>
-                        </xsl:call-template>
-                    </xsl:when>
-                    <xsl:when test="@xsi:type='ContinuousWeaponReport'">
-                        <xsl:apply-templates select="."/>
-                    </xsl:when>
-                    <xsl:when test="@xsi:type='DiscreteWeaponReport'">
-                        <xsl:apply-templates select="."/>
-                    </xsl:when>
-                    <xsl:otherwise></xsl:otherwise>
-                </xsl:choose>
+            <xsl:when test="@xsi:type='CraftMissileReport'">
+                <xsl:call-template name="missile-report">
+                    <xsl:with-param name="section" select="."/>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:when test="@xsi:type='ContinuousWeaponReport'">
+                <xsl:apply-templates select="."/>
+            </xsl:when>
+            <xsl:when test="@xsi:type='DiscreteWeaponReport'">
+                <xsl:apply-templates select="."/>
+            </xsl:when>
+            <xsl:otherwise></xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     <xsl:template match="CraftMissileReport" name="missile-report">
         <xsl:variable name="desc">
@@ -1426,6 +1446,123 @@
                 </dl>
             </div>
         </div>
+    </xsl:template>
+
+    <xsl:template match="CraftEngagementReport">
+        <xsl:variable name="allied_team" select="ancestor::TeamReportOfShipBattleReportCraftBattleReport/TeamID"/>
+        <xsl:variable name="owner_id" select="ancestor::AARPlayerReportOfShipBattleReportCraftBattleReport/PlayerID"/>
+        <div class = "engagement-header">
+            <h4>
+                Engagement <xsl:value-of select="EngagementID"/>
+                <xsl:text> - </xsl:text>
+                <xsl:choose>
+                    <xsl:when test="$allied_team = Victor">
+                        <span style="color: hsl(120, 100%, 50%);">Victory</span>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <span style="color: red;">Defeat</span>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </h4>
+        </div>
+        <div class="engagement">
+            <div class="participants">
+
+                <xsl:choose>
+                    <xsl:when test="$allied_team = 'TeamA'">
+                        <div class="craft-group">
+                            <xsl:apply-templates select="TeamAParticipants/Participant">
+                                <xsl:with-param name="color" select="'rgb(55, 180, 230)'"/>
+                                <xsl:with-param name="design" select="ancestor::CraftBattleReport/DesignKey"/>
+                            </xsl:apply-templates>
+                        </div>
+                        <div class='divider-craft'></div>
+                        <div class="craft-group">
+                            <xsl:apply-templates select="TeamBParticipants/Participant">
+                                <xsl:with-param name="color" select="'red'"/>
+                                <xsl:with-param name="design" select="ancestor::CraftBattleReport/DesignKey"/>
+                            </xsl:apply-templates>
+                        </div>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <div class="craft-group">
+                            <xsl:apply-templates select="TeamBParticipants/Participant">
+                                <xsl:with-param name="color" select="'rgb(55, 180, 230)'"/>
+                                <xsl:with-param name="design" select="ancestor::CraftBattleReport/DesignKey"/>
+                            </xsl:apply-templates>
+                        </div>
+                        <div class='divider-craft'></div>
+
+                        <div class="craft-group">
+                            <xsl:apply-templates select="TeamAParticipants/Participant">
+                                <xsl:with-param name="color" select="'red'"/>
+                                <xsl:with-param name="design" select="ancestor::CraftBattleReport/DesignKey"/>
+                            </xsl:apply-templates>
+                        </div>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </div>
+            <div class="stats craft-stats">
+                <div>
+                    <xsl:text>Start Time: </xsl:text>
+                    <xsl:call-template name="timestamp-from-seconds">
+                        <xsl:with-param name="seconds" select="StartTime" />
+                    </xsl:call-template>
+                </div>
+                <div>
+                    <xsl:text>Duration: </xsl:text>
+                    <xsl:call-template name="timestamp-from-seconds">
+                        <xsl:with-param name="seconds" select="EndTime - StartTime" />
+                    </xsl:call-template>
+                </div>
+                <div>
+                    <xsl:text>Friendly Craft: </xsl:text>
+                    <xsl:choose>
+                        <xsl:when test="$allied_team = 'TeamA'">
+                            <xsl:value-of select="count(TeamAParticipants/Participant[./OwnerId= $owner_id and ./SaveKey = ancestor::CraftBattleReport/DesignKey])" />
+                            <xsl:if test="count(TeamAParticipants/Participant[./SaveKey != ancestor::CraftBattleReport/DesignKey]) > 0">
+                                        (+                                <xsl:value-of select="count(TeamAParticipants/Participant[./SaveKey != ancestor::CraftBattleReport/DesignKey])" />
+)
+                            </xsl:if>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="count(TeamBParticipants/Participant[./OwnerId= $owner_id and ./SaveKey = ancestor::CraftBattleReport/DesignKey])" />
+                            <xsl:if test="count(TeamBParticipants/Participant[./SaveKey != ancestor::CraftBattleReport/DesignKey]) > 0">
+                                        (+                                <xsl:value-of select="count(TeamBParticipants/Participant[./SaveKey != ancestor::CraftBattleReport/DesignKey])" />
+)
+                            </xsl:if>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </div>
+                <div>
+                    <xsl:text>Enemy Craft: </xsl:text>
+                    <xsl:choose>
+                        <xsl:when test="$allied_team = 'TeamA'">
+                            <xsl:value-of select="count(TeamBParticipants/Participant)" />
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="count(TeamAParticipants/Participant)" />
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </div>
+            </div>
+        </div>
+    </xsl:template>
+    <xsl:template match="Participant">
+        <xsl:param name="color" select="'white'"/>
+        <xsl:param name="design" select="true()"/>
+            <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" fill="{$color}" stroke="black" stroke-width="2"/>
+
+                <xsl:if test="not($design = SaveKey)">
+                    <circle cx="20" cy="20" r="8" fill="black"/>
+                </xsl:if>
+
+                <xsl:if test="Destroyed = 'true'">
+                    <line x1="0" y1="0" x2="40" y2="40" stroke="black" stroke-width="5"/>
+                    <line x1="0" y1="40" x2="40" y2="0" stroke="black" stroke-width="5"/>
+                </xsl:if>
+            </svg>
     </xsl:template>
     
 
