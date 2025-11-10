@@ -184,7 +184,7 @@
                                 <xsl:with-param name="ship-report" select="." />
                             </xsl:call-template>
                         </xsl:when>
-                        <xsl:when test="./HullKey = 'Stock/Container Hauler'">
+                        <xsl:when test="./HullKey = 'Stock/Container Hauler Refit'">
                             <xsl:call-template name="container-freighter-dc-board">
                                 <xsl:with-param name="ship-report" select="." />
                             </xsl:call-template>
@@ -209,7 +209,7 @@
                 <xsl:value-of select="../../PlayerID"></xsl:value-of>-<xsl:value-of select="count(../ShipBattleReport[. = current()]/preceding-sibling::*)+1"></xsl:value-of>
             </xsl:attribute>
             <xsl:attribute name="class">
-                ship details hidden <xsl:if test="./HullKey = 'Stock/Container Hauler'">lineship</xsl:if>
+                ship details hidden <xsl:if test="./HullKey = 'Stock/Container Hauler Refit'">lineship</xsl:if>
             </xsl:attribute>
             <div class="summary">
                 <div class="dc-board">
@@ -264,7 +264,7 @@
                                 <xsl:with-param name="ship-report" select="." />
                             </xsl:call-template>
                         </xsl:when>
-                        <xsl:when test="./HullKey = 'Stock/Container Hauler'">
+                        <xsl:when test="./HullKey = 'Stock/Container Hauler Refit'">
                             <xsl:call-template name="container-freighter-dc-board">
                                 <xsl:with-param name="ship-report" select="." />
                             </xsl:call-template>
