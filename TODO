@@ -1,11 +1,9 @@
 
 
-Missing assets:
-- Levy DC
-- Jman DC
-
-Outdated assets:
+Needs Sockets:
 - LN
+- Levy
+- Jman
 
 Things to ask Lys:
 - <noparse> tags in engagement list (might need fix)
