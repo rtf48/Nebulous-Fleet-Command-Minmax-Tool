@@ -25,15 +25,15 @@
                     <xsl:element name="xsl:apply-templates">
                         <xsl:attribute name="select">$ship-report//HullConfig/PrimaryStructure/SegmentConfiguration</xsl:attribute>
                     </xsl:element>
-                    <!-- <xsl:element name="xsl:apply-templates">
+                    <xsl:element name="xsl:apply-templates">
                         <xsl:attribute name="select">$ship-report//HullConfig/SecondaryStructure/SecondaryStructureConfig</xsl:attribute>
-                    </xsl:element> -->
+                    </xsl:element>
                 </xsl:copy>
             </xsl:element>
 
             <xsl:apply-templates select="//svg:g[@id='sockets']" mode="template"/>
             <xsl:apply-templates select="//svg:g[contains(@class, 'hull')]" mode="template"/>
-            <!-- <xsl:apply-templates select="//svg:g[contains(@class, 'super')]" mode="template"/> -->
+            <xsl:apply-templates select="//svg:g[contains(@class, 'super')]" mode="template"/>
         </xsl:element>
     </xsl:template>
 
@@ -81,10 +81,12 @@
         </xsl:element>
     </xsl:template>
 
+
+
     <xsl:template match="svg:g[contains(@class, 'hull')]/svg:g" mode="template">
         <xsl:copy>
             <xsl:apply-templates select="@*" />
-            <xsl:apply-templates select="svg:g[@class='frame']" />
+            <xsl:apply-templates select="svg:g[@class='frame']" mode="template"/>
             <xsl:apply-templates select="svg:g[@class='sockets']" mode="template"/>
             <!-- <xsl:apply-templates select="svg:g[@class='super']" mode="template"/> -->
             <xsl:for-each select="svg:g[@class='super']">
@@ -97,6 +99,12 @@
                     </xsl:copy>
                 </xsl:element>
             </xsl:for-each>
+        </xsl:copy>
+    </xsl:template>
+
+    <xsl:template match="svg:g[@class='frame']" mode="template">
+        <xsl:copy>
+            <xsl:apply-templates select="@* | node()"/>
         </xsl:copy>
     </xsl:template>
 
