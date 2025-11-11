@@ -1,8 +1,7 @@
 
-Things to ask Lys:
-- <noparse> tags in engagement list (might need fix)
+Notes of weird stuff:
 - Missile component string table pointers ($MISSILEWARHEAD_SHORT_HEIMPACT, etc) (might need fix)
-- c54 (fine)
-- perch=s0 (fine)
-- $MODMIS$ on submn (fine)
-- CBU brackets (weird but does in fact show up ingame)
+- c56 labeled as c54
+- perch labeled as s0
+- submn containers prepended by $MODMIS$/ instead of Stock/
+- CBU brackets (matches ingame AAR)
