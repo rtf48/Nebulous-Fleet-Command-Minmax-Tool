@@ -94,8 +94,6 @@ function reportUi() {
             ship.classList.add("selected");
 
             const details = document.querySelectorAll(".ship.details");
-            console.log(details);
-            console.log("hello4")
             details.forEach((d) => {
                 if (d.dataset.shipId === ship.dataset.shipId) {
                     d.classList.remove("hidden");
