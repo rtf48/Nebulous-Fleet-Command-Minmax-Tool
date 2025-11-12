@@ -904,24 +904,29 @@
                             (<xsl:value-of select="format-number(TotalExpended div TotalCarried, '###%')" />)
                         </dd>
                     </div>
-                    <div class="own-line">
-                        <dt>Interceptions</dt>
-                        <dd>
-                            <xsl:value-of select="TotalInterceptions" />
-                            <xsl:if test="TotalTargets > 0">
-                                (<xsl:value-of select="format-number(TotalInterceptions div TotalTargets, '###%')" />)
-                            </xsl:if>
-                        </dd>
-                    </div>
-                    <div class="own-line">
-                        <dt>Successes</dt>
-                        <dd>
-                            <xsl:value-of select="TotalSuccesses" />
-                            <xsl:if test="TotalTargets > 0">
-                                (<xsl:value-of select="format-number(TotalSuccesses div TotalTargets, '###%')" />)
-                            </xsl:if>
-                        </dd>
-                    </div>
+                    <xsl:if test="TotalExpended > 0">
+                        <div class="own-line">
+                            <dt>Interceptions</dt>
+                            <dd>
+                                <xsl:value-of select="TotalInterceptions" />
+                                <xsl:if test="TotalTargets > 0">
+                                    (<xsl:value-of select="format-number(TotalInterceptions div TotalTargets, '###%')" />)
+                                </xsl:if>
+                            </dd>
+                        </div>
+                        <div class="own-line">
+                            <dt>Successes</dt>
+                            <dd>
+                                <xsl:value-of select="TotalSuccesses" />
+                                <xsl:if test="TotalTargets > 0">
+                                    (<xsl:value-of select="format-number(TotalSuccesses div TotalTargets, '###%')" />)
+                                </xsl:if>
+                            </dd>
+                        </div>
+                    </xsl:if>
+                    <xsl:if test="TotalExpended = 0">
+                        <p class="unused">&#x2013; UNUSED &#x2013;</p>
+                    </xsl:if>
                 </dl>
             </div>
         </div>
@@ -1170,17 +1175,22 @@
                             (<xsl:value-of select="format-number(TotalExpended div TotalCarried, '###%')" />)
                         </dd>
                     </div>
-                    <div class='half-line'>
-                        <dt>Dmg Potential</dt>
-                        <dd><xsl:value-of select="format-number(IndividualDamagePotential * TotalCarried, '###,###,###')" /></dd>
-                    </div>
-                    <div class='half-line'>
-                        <dt>Actual Dmg</dt>
-                        <dd>
-                            <xsl:value-of select="format-number(TotalDamageDone, '###,###,###')" />
-                            (<xsl:value-of select="format-number(TotalDamageDone div (IndividualDamagePotential * TotalCarried), '###%')" />)
-                        </dd>
-                    </div>
+                    <xsl:if test="TotalExpended > 0">
+                        <div class='half-line'>
+                            <dt>Dmg Potential</dt>
+                            <dd><xsl:value-of select="format-number(IndividualDamagePotential * TotalCarried, '###,###,###')" /></dd>
+                        </div>
+                        <div class='half-line'>
+                            <dt>Actual Dmg</dt>
+                            <dd>
+                                <xsl:value-of select="format-number(TotalDamageDone, '###,###,###')" />
+                         r       (<xsl:value-of select="format-number(TotalDamageDone div (IndividualDamagePotential * TotalCarried), '###%')" />)
+                            </dd>
+                        </div>
+                    </xsl:if>
+                    <xsl:if test="TotalExpended = 0">
+                        <p class="unused">&#x2013; UNUSED &#x2013;</p>
+                    </xsl:if>
                 </dl>
             </div>
             <div class="missile-hits">
