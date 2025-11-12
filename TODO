@@ -1,6 +1,7 @@
+LN stuff
+
 
 Notes of weird stuff:
-- Missile component string table pointers ($MISSILEWARHEAD_SHORT_HEIMPACT, etc) (might need fix)
 - c56 labeled as c54
 - perch labeled as s0
 - submn containers prepended by $MODMIS$/ instead of Stock/

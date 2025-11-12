@@ -1802,17 +1802,22 @@
     </xsl:template>
     <xsl:template name="missile-desc">
         <xsl:param name="desc" />
+        <xsl:variable name="cleaned-desc">
+            <xsl:call-template name="replace-missile-sockets">
+                <xsl:with-param name="text" select="$desc" />
+            </xsl:call-template>
+        </xsl:variable>
         <xsl:variable name="before-color">
             <xsl:call-template name="missile-desc-before-color">
-                <xsl:with-param name="desc" select='$desc' />
+                <xsl:with-param name="desc" select='$cleaned-desc' />
             </xsl:call-template>
         </xsl:variable>
         <xsl:variable name="rest-with-color">
-            <xsl:value-of select="substring($desc, string-length($before-color))" />
+            <xsl:value-of select="substring($cleaned-desc, string-length($before-color))" />
         </xsl:variable>
         <xsl:variable name="rest">
             <xsl:call-template name="missile-desc-after-color">
-                <xsl:with-param name="desc" select="$desc" />
+                <xsl:with-param name="desc" select="$cleaned-desc" />
             </xsl:call-template>
         </xsl:variable>
         <xsl:variable name="color">
@@ -1837,7 +1842,7 @@
                             <xsl:with-param name="desc" select="$rest" />
                         </xsl:call-template>
                     </xsl:when>
-                    <xsl:otherwise><xsl:value-of select="translate($desc, '-', '&#x2013;')" /></xsl:otherwise>
+                    <xsl:otherwise><xsl:value-of select="translate($cleaned-desc, '-', '&#x2013;')" /></xsl:otherwise>
                 </xsl:choose>
             </xsl:when>
             <xsl:otherwise><xsl:value-of select="translate($rest, '-', '&#x2013;')" /></xsl:otherwise>
@@ -1858,5 +1863,112 @@
     <xsl:template name="in-color">
         <xsl:param name="desc" />
         <xsl:value-of select="substring-before(substring-after($desc, '&gt;'), '&lt;')" />
+    </xsl:template>
+    <xsl:template name="replace">
+        <xsl:param name="text"/>
+        <xsl:param name="find"/>
+        <xsl:param name="replace"/>
+        <xsl:choose>
+            <xsl:when test="contains($text, $find)">
+                <xsl:value-of select="substring-before($text, $find)" />
+                <xsl:value-of select="$replace" />
+                <xsl:call-template name="replace">
+                    <xsl:with-param name="text" select="substring-after($text, $find)" />
+                    <xsl:with-param name="find" select="$find" />
+                    <xsl:with-param name="replace" select="$replace" />
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="$text" />
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template name="replace-missile-sockets">
+        <xsl:param name="text"/>
+        <xsl:variable name="hei_rep">
+            <xsl:call-template name="replace">
+                <xsl:with-param name="text" select="$text" />
+                <xsl:with-param name="find" select="'$MISSILEWARHEAD_SHORT_HEIMPACT'" />
+                <xsl:with-param name="replace" select="'HE SHAPED'" />
+            </xsl:call-template>
+        </xsl:variable>
+        <xsl:variable name="hekp_rep">
+            <xsl:call-template name="replace">
+                <xsl:with-param name="text" select="$hei_rep" />
+                <xsl:with-param name="find" select="'$MISSILEWARHEAD_SHORT_HEKP'" />
+                <xsl:with-param name="replace" select="'HEKP'" />
+            </xsl:call-template>
+        </xsl:variable>
+        <xsl:variable name="he_frag_rep">
+            <xsl:call-template name="replace">
+                <xsl:with-param name="text" select="$hekp_rep" />
+                <xsl:with-param name="find" select="'$MISSILEWARHEAD_SHORT_BLASTFRAG'" />
+                <xsl:with-param name="replace" select="'HE FRAG'" />
+            </xsl:call-template>
+        </xsl:variable>
+        <xsl:variable name="direct_rep">
+            <xsl:call-template name="replace">
+                <xsl:with-param name="text" select="$he_frag_rep" />
+                <xsl:with-param name="find" select="'$MISSILEGUIDANCE_MODE_DIRECT'" />
+                <xsl:with-param name="replace" select="'DIRECT'" />
+            </xsl:call-template>
+        </xsl:variable>
+        <xsl:variable name="cruise_rep">
+            <xsl:call-template name="replace">
+                <xsl:with-param name="text" select="$direct_rep" />
+                <xsl:with-param name="find" select="'$MISSILEGUIDANCE_MODE_CRUISE'" />
+                <xsl:with-param name="replace" select="'CRUISE'" />
+            </xsl:call-template>
+        </xsl:variable>
+        <xsl:variable name="command_rep">
+            <xsl:call-template name="replace">
+                <xsl:with-param name="text" select="$cruise_rep" />
+                <xsl:with-param name="find" select="'$MISSILESEEKER_MODE_COMMAND_ABBREV'" />
+                <xsl:with-param name="replace" select="'CMD'" />
+            </xsl:call-template>
+        </xsl:variable>
+        <xsl:variable name="active_rep">
+            <xsl:call-template name="replace">
+                <xsl:with-param name="text" select="$command_rep" />
+                <xsl:with-param name="find" select="'$MISSILESEEKER_MODE_ACTIVE_ABBREV'" />
+                <xsl:with-param name="replace" select="'ACT'" />
+            </xsl:call-template>
+        </xsl:variable>
+        <xsl:variable name="passive_rep">
+            <xsl:call-template name="replace">
+                <xsl:with-param name="text" select="$active_rep" />
+                <xsl:with-param name="find" select="'$MISSILESEEKER_MODE_PASSIVE_ABBREV'" />
+                <xsl:with-param name="replace" select="'PSV'" />
+            </xsl:call-template>
+        </xsl:variable>
+        <xsl:variable name="semiactive_rep">
+            <xsl:call-template name="replace">
+                <xsl:with-param name="text" select="$passive_rep" />
+                <xsl:with-param name="find" select="'$MISSILESEEKER_MODE_SEMIACTIVE_ABBREV'" />
+                <xsl:with-param name="replace" select="'SAH'" />
+            </xsl:call-template>
+        </xsl:variable>
+        <xsl:variable name="hoj_rep">
+            <xsl:call-template name="replace">
+                <xsl:with-param name="text" select="$semiactive_rep" />
+                <xsl:with-param name="find" select="'$MISSILESEEKER_MODE_ARAD_HOJ_ABBREV'" />
+                <xsl:with-param name="replace" select="'HOJ'" />
+            </xsl:call-template>
+        </xsl:variable>
+        <xsl:variable name="arad_rep">
+            <xsl:call-template name="replace">
+                <xsl:with-param name="text" select="$hoj_rep" />
+                <xsl:with-param name="find" select="'$MISSILESEEKER_MODE_ARAD_PULSED_ABBREV'" />
+                <xsl:with-param name="replace" select="'ARAD'" />
+            </xsl:call-template>
+        </xsl:variable>
+        <xsl:variable name="none_rep">
+            <xsl:call-template name="replace">
+                <xsl:with-param name="text" select="$arad_rep" />
+                <xsl:with-param name="find" select="'$MISSILESTAT_NONE'" />
+                <xsl:with-param name="replace" select="'NONE'" />
+            </xsl:call-template>
+        </xsl:variable>
+        <xsl:value-of select="$none_rep" />
     </xsl:template>
 </xsl:stylesheet>
