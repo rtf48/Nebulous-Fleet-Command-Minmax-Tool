@@ -1,11 +1,11 @@
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<!-- Created with Inkscape (http://www.inkscape.org/) --><xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 version="2.0"
                 exclude-result-prefixes="xs">
    <xsl:output method="xml" omit-xml-declaration="yes" indent="yes"/>
    <xsl:template name="bulk-freighter-dc-board">
       <xsl:param name="ship-report"/>
-      <svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" width="139.683mm" height="42.130001mm" viewBox="0 0 139.683 42.130001" version="1.1" id="svg873" xml:space="preserve" class="bulk-freighter-dc-board" sodipodi:docname="bulk-freighter-dc-board.svg" inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"><sodipodi:namedview id="namedview1" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="1.424431" inkscape:cx="472.46934" inkscape:cy="161.46798" inkscape:window-width="2226" inkscape:window-height="1179" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="1" inkscape:current-layer="hull-38e7a28f-1b06-4b73-98ee-f03d1d8a81fe"/>
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" width="139.683mm" height="42.130001mm" viewBox="0 0 139.683 42.130001" version="1.1" id="svg873" xml:space="preserve" class="bulk-freighter-dc-board" sodipodi:docname="bulk-freighter-dc-board.svg" inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)">
+       <sodipodi:namedview id="namedview1" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="1.424431" inkscape:cx="472.11834" inkscape:cy="-7.7223818" inkscape:window-width="2226" inkscape:window-height="1179" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="1" inkscape:current-layer="svg873"/>
        <style id="style3940">
      #hull-d4c9a66d-81e6-49ee-9b33-82d7a1522bbf ~ #hull-2f2b451c-4776-405c-9914-cad4764f1072
      { transform: translate(19.320261px,2.6458334px); }
@@ -34,37 +34,15 @@
      { transform: translate(10.45px,-0.641377px); }
      
      #hull-429f178e-e369-4f51-8054-2e01dd0abea1 ~ #hull-78d72a9a-893c-41c6-bddd-f198dfcf77ee
-     { transform: translate(19.179462px,1.0583333px); }
-
-
-     #hull-38e7a28f-1b06-4b73-98ee-f03d1d8a81fe[data-core='d4c9a66d-81e6-49ee-9b33-82d7a1522bbf']
-     { transform: translate(82.466029px,0.43762747px); }
-
-     #hull-29eb9c63-6c47-40f2-8f46-4ed4da8d3386[data-core='d4c9a66d-81e6-49ee-9b33-82d7a1522bbf']
-     { transform: translate(82.243632px,4.2333331px); }
-     
-     #hull-c534a876-3f8a-4315-a194-5dda0f84c2b3[data-core='d4c9a66d-81e6-49ee-9b33-82d7a1522bbf']
-     { transform: translate(82.486942px,15.345836px); }
-     
-       
-     #hull-38e7a28f-1b06-4b73-98ee-f03d1d8a81fe[data-core='e2c11e02-b770-495e-a3c2-3dc998eac5a6']
-     { transform: translate(86.86574px,-1.7px); }
-
-     #hull-29eb9c63-6c47-40f2-8f46-4ed4da8d3386[data-core='e2c11e02-b770-495e-a3c2-3dc998eac5a6']
-     { transform: translate(86.913598px,1.874711px); }
-     
-     #hull-c534a876-3f8a-4315-a194-5dda0f84c2b3[data-core='e2c11e02-b770-495e-a3c2-3dc998eac5a6']
-     { transform: translate(86.757197px,13.346126px); }
-
-     
-       
-     #hull-38e7a28f-1b06-4b73-98ee-f03d1d8a81fe[data-core='429f178e-e369-4f51-8054-2e01dd0abea1']
-     { transform: translate(75.187147px,0.27025471px); }
-
-     #hull-29eb9c63-6c47-40f2-8f46-4ed4da8d3386[data-core='429f178e-e369-4f51-8054-2e01dd0abea1']
-     { transform: translate(75.493917px,3.8336228px); }
-     
-     #hull-c534a876-3f8a-4315-a194-5dda0f84c2b3[data-core='429f178e-e369-4f51-8054-2e01dd0abea1']
+     { transform: translate(19.179462px,1.0583333px); } #hull-38e7a28f-1b06-4b73-98ee-f03d1d8a81fe[data-core='d4c9a66d-81e6-49ee-9b33-82d7a1522bbf']
+     { transform: translate(82.466029px,0.43762747px); } #hull-29eb9c63-6c47-40f2-8f46-4ed4da8d3386[data-core='d4c9a66d-81e6-49ee-9b33-82d7a1522bbf']
+     { transform: translate(82.243632px,4.2333331px); } #hull-c534a876-3f8a-4315-a194-5dda0f84c2b3[data-core='d4c9a66d-81e6-49ee-9b33-82d7a1522bbf']
+     { transform: translate(82.486942px,15.345836px); } #hull-38e7a28f-1b06-4b73-98ee-f03d1d8a81fe[data-core='e2c11e02-b770-495e-a3c2-3dc998eac5a6']
+     { transform: translate(86.86574px,-1.7px); } #hull-29eb9c63-6c47-40f2-8f46-4ed4da8d3386[data-core='e2c11e02-b770-495e-a3c2-3dc998eac5a6']
+     { transform: translate(86.913598px,1.874711px); } #hull-c534a876-3f8a-4315-a194-5dda0f84c2b3[data-core='e2c11e02-b770-495e-a3c2-3dc998eac5a6']
+     { transform: translate(86.757197px,13.346126px); } #hull-38e7a28f-1b06-4b73-98ee-f03d1d8a81fe[data-core='429f178e-e369-4f51-8054-2e01dd0abea1']
+     { transform: translate(75.187147px,0.27025471px); } #hull-29eb9c63-6c47-40f2-8f46-4ed4da8d3386[data-core='429f178e-e369-4f51-8054-2e01dd0abea1']
+     { transform: translate(75.493917px,3.8336228px); } #hull-c534a876-3f8a-4315-a194-5dda0f84c2b3[data-core='429f178e-e369-4f51-8054-2e01dd0abea1']
      { transform: translate(75.348859px,15.604749px); }
        </style>
        <defs id="defs870"/>
@@ -80,7 +58,7 @@
        
        
        
-<xsl:apply-templates select="$ship-report//HullConfig/PrimaryStructure/SegmentConfiguration"/><xsl:apply-templates select="$ship-report//HullConfig/SecondaryStructure/SecondaryStructureConfig"/></svg>
+<xsl:apply-templates select="$ship-report//HullConfig/PrimaryStructure/SegmentConfiguration"/></svg>
    </xsl:template>
    <xsl:template match="HullConfig/PrimaryStructure/SegmentConfiguration[Key = 'd4c9a66d-81e6-49ee-9b33-82d7a1522bbf']">
       <g xmlns="http://www.w3.org/2000/svg"
@@ -472,19 +450,9 @@
                            d="m 43.501323,25.843611 h 0.565658"
                            id="path3333-0-0-3"/>
                   </g>
-                  <g id="g3338-9-6-03"
-                     class="frame"
-                     style="stroke-width:0.372594;stroke-dasharray:none">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                           id="path3329-1-0-4"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 43.501323,30.689288 V 22.628842"
-                           id="path3331-3-5-7"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 43.501323,25.843611 h 0.565658"
-                           id="path3333-0-0-3"/>
-                  </g>
+                                   
+                                   
+                                   
                   <g id="g3346-8-8-05" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -560,25 +528,10 @@
                            d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
                            id="path8576-5-9-2"/>
                   </g>
-                  <g id="g9491-9-4-9"
-                     class="frame"
-                     style="stroke-width:0.281447;stroke-dasharray:none">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                           id="path8570-8-6-63"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                           id="path8572-8-2-1"/>
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8574-5-6-18"
-                           width="3.2156999"
-                           height="0.72076529"
-                           x="127.43145"
-                           y="59.867943"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                           id="path8576-5-9-2"/>
-                  </g>
+                                   
+                                   
+                                   
+                                   
                   <g id="g9495-3-4-4" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -649,20 +602,9 @@
                            d="m 199.62796,68.906714 h 0.73186"
                            id="path4721-4-0-29"/>
                   </g>
-                  <g id="g5905-4-4-37"
-                     style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-                     transform="translate(-245.38886,-5.3945402)"
-                     class="frame">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                           id="path4717-1-2-3"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 199.93844,72.366392 V 66.201069"
-                           id="path4719-8-9-2"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 199.62796,68.906714 h 0.73186"
-                           id="path4721-4-0-29"/>
-                  </g>
+                                   
+                                   
+                                   
                   <g id="g5967-3-6-86"
                      transform="translate(-245.38886,-5.3945402)"
                      class="sockets">
@@ -729,14 +671,8 @@
                            d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
                            id="path8269-5-1-87"/>
                   </g>
-                  <g id="g8273-6-6-1" class="frame">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                           id="path8267-2-3-24"/>
-                     <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                           id="path8269-5-1-87"/>
-                  </g>
+                                   
+                                   
                   <g id="g8281-7-9-7" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -1176,19 +1112,9 @@
                            d="m 43.501323,25.843611 h 0.565658"
                            id="path3333-0-0-4"/>
                   </g>
-                  <g id="g3338-9-6-5"
-                     class="frame"
-                     style="stroke-width:0.372594;stroke-dasharray:none">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                           id="path3329-1-0-15"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 43.501323,30.689288 V 22.628842"
-                           id="path3331-3-5-0"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 43.501323,25.843611 h 0.565658"
-                           id="path3333-0-0-4"/>
-                  </g>
+                                   
+                                   
+                                   
                   <g id="g3346-8-8-1" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -1264,25 +1190,10 @@
                            d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
                            id="path8576-5-9-7"/>
                   </g>
-                  <g id="g9491-9-4-7"
-                     class="frame"
-                     style="stroke-width:0.281447;stroke-dasharray:none">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                           id="path8570-8-6-83"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                           id="path8572-8-2-6"/>
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8574-5-6-9"
-                           width="3.2156999"
-                           height="0.72076529"
-                           x="127.43145"
-                           y="59.867943"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                           id="path8576-5-9-7"/>
-                  </g>
+                                   
+                                   
+                                   
+                                   
                   <g id="g9495-3-4-8" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -1353,20 +1264,9 @@
                            d="m 199.62796,68.906714 h 0.73186"
                            id="path4721-4-0-4"/>
                   </g>
-                  <g id="g5905-4-4-4"
-                     style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-                     transform="translate(-245.38886,-5.3945402)"
-                     class="frame">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                           id="path4717-1-2-2"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 199.93844,72.366392 V 66.201069"
-                           id="path4719-8-9-66"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 199.62796,68.906714 h 0.73186"
-                           id="path4721-4-0-4"/>
-                  </g>
+                                   
+                                   
+                                   
                   <g id="g5967-3-6-1"
                      transform="translate(-245.38886,-5.3945402)"
                      class="sockets">
@@ -1433,14 +1333,8 @@
                            d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
                            id="path8269-5-1-8"/>
                   </g>
-                  <g id="g8273-6-6-69" class="frame">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                           id="path8267-2-3-28"/>
-                     <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                           id="path8269-5-1-8"/>
-                  </g>
+                                   
+                                   
                   <g id="g8281-7-9-3" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -1902,19 +1796,9 @@
                            d="m 43.501323,25.843611 h 0.565658"
                            id="path3333-0-0-2"/>
                   </g>
-                  <g id="g3338-9-6-0"
-                     class="frame"
-                     style="stroke-width:0.372594;stroke-dasharray:none">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                           id="path3329-1-0-1"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 43.501323,30.689288 V 22.628842"
-                           id="path3331-3-5-8"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 43.501323,25.843611 h 0.565658"
-                           id="path3333-0-0-2"/>
-                  </g>
+                                   
+                                   
+                                   
                   <g id="g3346-8-8-7" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -1990,25 +1874,10 @@
                            d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
                            id="path8576-5-9-5"/>
                   </g>
-                  <g id="g9491-9-4-2"
-                     class="frame"
-                     style="stroke-width:0.281447;stroke-dasharray:none">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                           id="path8570-8-6-6"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                           id="path8572-8-2-7"/>
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8574-5-6-0"
-                           width="3.2156999"
-                           height="0.72076529"
-                           x="127.43145"
-                           y="59.867943"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                           id="path8576-5-9-5"/>
-                  </g>
+                                   
+                                   
+                                   
+                                   
                   <g id="g9495-3-4-5" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -2079,20 +1948,9 @@
                            d="m 199.62796,68.906714 h 0.73186"
                            id="path4721-4-0-2"/>
                   </g>
-                  <g id="g5905-4-4-3"
-                     style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-                     transform="translate(-245.38886,-5.3945402)"
-                     class="frame">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                           id="path4717-1-2-5"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 199.93844,72.366392 V 66.201069"
-                           id="path4719-8-9-4"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 199.62796,68.906714 h 0.73186"
-                           id="path4721-4-0-2"/>
-                  </g>
+                                   
+                                   
+                                   
                   <g id="g5967-3-6-7"
                      transform="translate(-245.38886,-5.3945402)"
                      class="sockets">
@@ -2159,14 +2017,8 @@
                            d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
                            id="path8269-5-1-7"/>
                   </g>
-                  <g id="g8273-6-6-6" class="frame">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                           id="path8267-2-3-5"/>
-                     <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                           id="path8269-5-1-7"/>
-                  </g>
+                                   
+                                   
                   <g id="g8281-7-9-5" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -2653,19 +2505,9 @@
                            d="m 43.501323,25.843611 h 0.565658"
                            id="path3333-0-0-21"/>
                   </g>
-                  <g id="g3338-9-6-4"
-                     class="frame"
-                     style="stroke-width:0.372594;stroke-dasharray:none">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                           id="path3329-1-0-6"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 43.501323,30.689288 V 22.628842"
-                           id="path3331-3-5-1"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 43.501323,25.843611 h 0.565658"
-                           id="path3333-0-0-21"/>
-                  </g>
+                                   
+                                   
+                                   
                   <g id="g3346-8-8-6" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -2741,25 +2583,10 @@
                            d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
                            id="path8576-5-9-6"/>
                   </g>
-                  <g id="g9491-9-4-6"
-                     class="frame"
-                     style="stroke-width:0.281447;stroke-dasharray:none">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                           id="path8570-8-6-8"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                           id="path8572-8-2-2"/>
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8574-5-6-1"
-                           width="3.2156999"
-                           height="0.72076529"
-                           x="127.43145"
-                           y="59.867943"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                           id="path8576-5-9-6"/>
-                  </g>
+                                   
+                                   
+                                   
+                                   
                   <g id="g9495-3-4-0" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -2830,20 +2657,9 @@
                            d="m 199.62796,68.906714 h 0.73186"
                            id="path4721-4-0-25"/>
                   </g>
-                  <g id="g5905-4-4-6"
-                     style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-                     transform="translate(-245.38886,-5.3945402)"
-                     class="frame">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                           id="path4717-1-2-4"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 199.93844,72.366392 V 66.201069"
-                           id="path4719-8-9-6"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 199.62796,68.906714 h 0.73186"
-                           id="path4721-4-0-25"/>
-                  </g>
+                                   
+                                   
+                                   
                   <g id="g5967-3-6-8"
                      transform="translate(-245.38886,-5.3945402)"
                      class="sockets">
@@ -2910,14 +2726,8 @@
                            d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
                            id="path8269-5-1-1"/>
                   </g>
-                  <g id="g8273-6-6-3" class="frame">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                           id="path8267-2-3-2"/>
-                     <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                           id="path8269-5-1-1"/>
-                  </g>
+                                   
+                                   
                   <g id="g8281-7-9-1" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -3349,19 +3159,9 @@
                            d="m 43.501323,25.843611 h 0.565658"
                            id="path3333-0-0"/>
                   </g>
-                  <g id="g3338-9-6"
-                     class="frame"
-                     style="stroke-width:0.372594;stroke-dasharray:none">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                           id="path3329-1-0"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 43.501323,30.689288 V 22.628842"
-                           id="path3331-3-5"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 43.501323,25.843611 h 0.565658"
-                           id="path3333-0-0"/>
-                  </g>
+                                   
+                                   
+                                   
                   <g id="g3346-8-8" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -3437,25 +3237,10 @@
                            d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
                            id="path8576-5-9"/>
                   </g>
-                  <g id="g9491-9-4"
-                     class="frame"
-                     style="stroke-width:0.281447;stroke-dasharray:none">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                           id="path8570-8-6"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                           id="path8572-8-2"/>
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8574-5-6"
-                           width="3.2156999"
-                           height="0.72076529"
-                           x="127.43145"
-                           y="59.867943"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                           id="path8576-5-9"/>
-                  </g>
+                                   
+                                   
+                                   
+                                   
                   <g id="g9495-3-4" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -3526,20 +3311,9 @@
                            d="m 199.62796,68.906714 h 0.73186"
                            id="path4721-4-0"/>
                   </g>
-                  <g id="g5905-4-4"
-                     style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-                     transform="translate(-245.38886,-5.3945402)"
-                     class="frame">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                           id="path4717-1-2"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 199.93844,72.366392 V 66.201069"
-                           id="path4719-8-9"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 199.62796,68.906714 h 0.73186"
-                           id="path4721-4-0"/>
-                  </g>
+                                   
+                                   
+                                   
                   <g id="g5967-3-6"
                      transform="translate(-245.38886,-5.3945402)"
                      class="sockets">
@@ -3606,14 +3380,8 @@
                            d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
                            id="path8269-5-1"/>
                   </g>
-                  <g id="g8273-6-6" class="frame">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                           id="path8267-2-3"/>
-                     <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                           id="path8269-5-1"/>
-                  </g>
+                                   
+                                   
                   <g id="g8281-7-9" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -4083,19 +3851,9 @@
                            d="m 43.501323,25.843611 h 0.565658"
                            id="path3333-0-0-8"/>
                   </g>
-                  <g id="g3338-9-6-2"
-                     class="frame"
-                     style="stroke-width:0.372594;stroke-dasharray:none">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                           id="path3329-1-0-61"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 43.501323,30.689288 V 22.628842"
-                           id="path3331-3-5-9"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 43.501323,25.843611 h 0.565658"
-                           id="path3333-0-0-8"/>
-                  </g>
+                                   
+                                   
+                                   
                   <g id="g3346-8-8-0" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -4171,25 +3929,10 @@
                            d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
                            id="path8576-5-9-4"/>
                   </g>
-                  <g id="g9491-9-4-75"
-                     class="frame"
-                     style="stroke-width:0.281447;stroke-dasharray:none">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                           id="path8570-8-6-0"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                           id="path8572-8-2-8"/>
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8574-5-6-90"
-                           width="3.2156999"
-                           height="0.72076529"
-                           x="127.43145"
-                           y="59.867943"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                           id="path8576-5-9-4"/>
-                  </g>
+                                   
+                                   
+                                   
+                                   
                   <g id="g9495-3-4-3" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -4260,20 +4003,9 @@
                            d="m 199.62796,68.906714 h 0.73186"
                            id="path4721-4-0-5"/>
                   </g>
-                  <g id="g5905-4-4-0"
-                     style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-                     transform="translate(-245.38886,-5.3945402)"
-                     class="frame">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                           id="path4717-1-2-53"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 199.93844,72.366392 V 66.201069"
-                           id="path4719-8-9-9"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 199.62796,68.906714 h 0.73186"
-                           id="path4721-4-0-5"/>
-                  </g>
+                                   
+                                   
+                                   
                   <g id="g5967-3-6-0"
                      transform="translate(-245.38886,-5.3945402)"
                      class="sockets">
@@ -4340,14 +4072,8 @@
                            d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
                            id="path8269-5-1-0"/>
                   </g>
-                  <g id="g8273-6-6-2" class="frame">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                           id="path8267-2-3-20"/>
-                     <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                           id="path8269-5-1-0"/>
-                  </g>
+                                   
+                                   
                   <g id="g8281-7-9-8" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -4617,15 +4343,14 @@
                            </xsl:attribute>
                         </rect>
                      </xsl:when>
-                     <xsl:when test="Key = '9EF9u0V1eUetleBnkQhHkA'">
+                     <xsl:when test="Key = 'sTr26YTLmkOZTo_rNevp-g'">
                         <rect style="display:inline;fill:#8c8c8c;stroke-width:0.158019;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-dashoffset:9.8"
                               id="rect6152-7"
                               width="1.6674013"
                               height="2.0842516"
                               x="110.3363"
                               y="82.468834"
-                              class="socket-9EF9u0V1eUetleBnkQhHkA"
-                              inkscape:label="rect6152-7 NEW">
+                              class="socket-sTr26YTLmkOZTo_rNevp-g">
                            <xsl:attribute name="style">
                               <xsl:choose>
                                  <xsl:when test="IsDestroyed = 'false'">
@@ -4638,15 +4363,14 @@
                            </xsl:attribute>
                         </rect>
                      </xsl:when>
-                     <xsl:when test="Key = '9EF9u0V1eUetleBnkQhHkA'">
+                     <xsl:when test="Key = 'PRLtjo7PfECpLy8CGW9T8A'">
                         <rect style="display:inline;fill:#8c8c8c;stroke-width:0.158019;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-dashoffset:9.8"
                               id="rect6152-7-6"
                               width="1.6674013"
                               height="2.0842516"
                               x="95.961342"
                               y="68.559113"
-                              class="socket-9EF9u0V1eUetleBnkQhHkA"
-                              inkscape:label="rect6152-8 NEW">
+                              class="socket-PRLtjo7PfECpLy8CGW9T8A">
                            <xsl:attribute name="style">
                               <xsl:choose>
                                  <xsl:when test="IsDestroyed = 'false'">
@@ -4943,19 +4667,9 @@
                            d="m 43.501323,25.843611 h 0.565658"
                            id="path3333-0-0-81"/>
                   </g>
-                  <g id="g3338-9-6-7"
-                     class="frame"
-                     style="stroke-width:0.372594;stroke-dasharray:none">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                           id="path3329-1-0-3"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 43.501323,30.689288 V 22.628842"
-                           id="path3331-3-5-5"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 43.501323,25.843611 h 0.565658"
-                           id="path3333-0-0-81"/>
-                  </g>
+                                   
+                                   
+                                   
                   <g id="g3346-8-8-5" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -5031,25 +4745,10 @@
                            d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
                            id="path8576-5-9-78"/>
                   </g>
-                  <g id="g9491-9-4-3"
-                     class="frame"
-                     style="stroke-width:0.281447;stroke-dasharray:none">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                           id="path8570-8-6-4"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                           id="path8572-8-2-0"/>
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8574-5-6-5"
-                           width="3.2156999"
-                           height="0.72076529"
-                           x="127.43145"
-                           y="59.867943"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                           id="path8576-5-9-78"/>
-                  </g>
+                                   
+                                   
+                                   
+                                   
                   <g id="g9495-3-4-81" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -5120,20 +4819,9 @@
                            d="m 199.62796,68.906714 h 0.73186"
                            id="path4721-4-0-49"/>
                   </g>
-                  <g id="g5905-4-4-48"
-                     style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-                     transform="translate(-245.38886,-5.3945402)"
-                     class="frame">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                           id="path4717-1-2-8"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 199.93844,72.366392 V 66.201069"
-                           id="path4719-8-9-28"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 199.62796,68.906714 h 0.73186"
-                           id="path4721-4-0-49"/>
-                  </g>
+                                   
+                                   
+                                   
                   <g id="g5967-3-6-9"
                      transform="translate(-245.38886,-5.3945402)"
                      class="sockets">
@@ -5200,14 +4888,8 @@
                            d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
                            id="path8269-5-1-2"/>
                   </g>
-                  <g id="g8273-6-6-8" class="frame">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                           id="path8267-2-3-7"/>
-                     <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                           id="path8269-5-1-2"/>
-                  </g>
+                                   
+                                   
                   <g id="g8281-7-9-9" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -5371,15 +5053,34 @@
                            </xsl:attribute>
                         </rect>
                      </xsl:when>
-                     <xsl:when test="Key = '9EF9u0V1eUetleBnkQhHkA'">
+                     <xsl:when test="Key = 'PRLtjo7PfECpLy8CGW9T8A'">
+                        <rect style="display:inline;fill:#8c8c8c;stroke-width:0.186123;stroke-linecap:square;stroke-dashoffset:9.8"
+                              id="rect1151-9"
+                              width="2"
+                              height="2.5"
+                              x="137.8373"
+                              y="42.445061"
+                              class="socket-PRLtjo7PfECpLy8CGW9T8A">
+                           <xsl:attribute name="style">
+                              <xsl:choose>
+                                 <xsl:when test="IsDestroyed = 'false'">
+                                    <xsl:value-of select="concat('display:inline;fill:#8c8c8c;stroke-width:0.186123;stroke-linecap:square;stroke-dashoffset:9.8', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
+                                 </xsl:when>
+                                 <xsl:otherwise>
+                                    <xsl:text>display:inline;fill:#8c8c8c;stroke-width:0.186123;stroke-linecap:square;stroke-dashoffset:9.8</xsl:text>
+                                 </xsl:otherwise>
+                              </xsl:choose>
+                           </xsl:attribute>
+                        </rect>
+                     </xsl:when>
+                     <xsl:when test="Key = 'sTr26YTLmkOZTo_rNevp-g'">
                         <rect style="display:inline;fill:#8c8c8c;stroke-width:0.186123;stroke-linecap:square;stroke-dashoffset:9.8"
                               id="rect1151-1"
                               width="2"
                               height="2.5"
                               x="135.42093"
                               y="42.445061"
-                              class="socket-9EF9u0V1eUetleBnkQhHkA"
-                              inkscape:label="rect1151-1NEW">
+                              class="socket-sTr26YTLmkOZTo_rNevp-g">
                            <xsl:attribute name="style">
                               <xsl:choose>
                                  <xsl:when test="IsDestroyed = 'false'">
@@ -5736,19 +5437,9 @@
                            d="m 43.501323,25.843611 h 0.565658"
                            id="path3333-0-0-45"/>
                   </g>
-                  <g id="g3338-9-6-6"
-                     class="frame"
-                     style="stroke-width:0.372594;stroke-dasharray:none">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                           id="path3329-1-0-14"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 43.501323,30.689288 V 22.628842"
-                           id="path3331-3-5-2"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 43.501323,25.843611 h 0.565658"
-                           id="path3333-0-0-45"/>
-                  </g>
+                                   
+                                   
+                                   
                   <g id="g3346-8-8-2" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -5824,25 +5515,10 @@
                            d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
                            id="path8576-5-9-9"/>
                   </g>
-                  <g id="g9491-9-4-4"
-                     class="frame"
-                     style="stroke-width:0.281447;stroke-dasharray:none">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                           id="path8570-8-6-9"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                           id="path8572-8-2-25"/>
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8574-5-6-4"
-                           width="3.2156999"
-                           height="0.72076529"
-                           x="127.43145"
-                           y="59.867943"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                           id="path8576-5-9-9"/>
-                  </g>
+                                   
+                                   
+                                   
+                                   
                   <g id="g9495-3-4-51" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -5913,20 +5589,9 @@
                            d="m 199.62796,68.906714 h 0.73186"
                            id="path4721-4-0-7"/>
                   </g>
-                  <g id="g5905-4-4-42"
-                     style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-                     transform="translate(-245.38886,-5.3945402)"
-                     class="frame">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                           id="path4717-1-2-1"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="M 199.93844,72.366392 V 66.201069"
-                           id="path4719-8-9-97"/>
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 199.62796,68.906714 h 0.73186"
-                           id="path4721-4-0-7"/>
-                  </g>
+                                   
+                                   
+                                   
                   <g id="g5967-3-6-3"
                      transform="translate(-245.38886,-5.3945402)"
                      class="sockets">
@@ -5993,14 +5658,8 @@
                            d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
                            id="path8269-5-1-00"/>
                   </g>
-                  <g id="g8273-6-6-4" class="frame">
-                     <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                           id="path8267-2-3-8"/>
-                     <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                           d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                           id="path8269-5-1-00"/>
-                  </g>
+                                   
+                                   
                   <g id="g8281-7-9-37" class="sockets">
                      <xsl:for-each select="../../..//PartDamage">
                         <xsl:variable name="percent" select="HealthPercent"/>
@@ -6244,21 +5903,21 @@
                            </xsl:attribute>
                         </rect>
                      </xsl:when>
-                     <xsl:when test="Key = '9EF9u0V1eUetleBnkQhHkA'">
-                        <rect style="display:inline;fill:#8c8c8c;stroke-width:0.264999;stroke-linecap:square;stroke-dashoffset:9.8"
+                     <xsl:when test="Key = 'sTr26YTLmkOZTo_rNevp-g'">
+                        <rect style="fill:#8c8c8c;stroke-width:0.264999;stroke-linecap:square;stroke-dashoffset:9.8"
                               id="rect1490-7"
                               width="1.8818164"
                               height="2.2895432"
                               x="65.611809"
                               y="45.33989"
-                              class="socket-9EF9u0V1eUetleBnkQhHkA">
+                              class="socket-sTr26YTLmkOZTo_rNevp-g">
                            <xsl:attribute name="style">
                               <xsl:choose>
                                  <xsl:when test="IsDestroyed = 'false'">
-                                    <xsl:value-of select="concat('display:inline;fill:#8c8c8c;stroke-width:0.264999;stroke-linecap:square;stroke-dashoffset:9.8', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
+                                    <xsl:value-of select="concat('fill:#8c8c8c;stroke-width:0.264999;stroke-linecap:square;stroke-dashoffset:9.8', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
                                  </xsl:when>
                                  <xsl:otherwise>
-                                    <xsl:text>display:inline;fill:#8c8c8c;stroke-width:0.264999;stroke-linecap:square;stroke-dashoffset:9.8</xsl:text>
+                                    <xsl:text>fill:#8c8c8c;stroke-width:0.264999;stroke-linecap:square;stroke-dashoffset:9.8</xsl:text>
                                  </xsl:otherwise>
                               </xsl:choose>
                            </xsl:attribute>
@@ -6504,22 +6163,21 @@
                            </xsl:attribute>
                         </rect>
                      </xsl:when>
-                     <xsl:when test="Key = '9EF9u0V1eUetleBnkQhHkA'">
-                        <rect style="display:inline;fill:#8c8c8c;stroke-width:0.254622;stroke-linecap:square;stroke-dashoffset:9.8"
+                     <xsl:when test="Key = 'PRLtjo7PfECpLy8CGW9T8A'">
+                        <rect style="fill:#8c8c8c;stroke-width:0.254622;stroke-linecap:square;stroke-dashoffset:9.8"
                               id="rect1490-9"
                               width="1.8818164"
                               height="2.11374"
                               x="107.03336"
                               y="35.926334"
-                              class="socket-9EF9u0V1eUetleBnkQhHkA"
-                              inkscape:label="rect1490-9 NEW">
+                              class="socket-PRLtjo7PfECpLy8CGW9T8A">
                            <xsl:attribute name="style">
                               <xsl:choose>
                                  <xsl:when test="IsDestroyed = 'false'">
-                                    <xsl:value-of select="concat('display:inline;fill:#8c8c8c;stroke-width:0.254622;stroke-linecap:square;stroke-dashoffset:9.8', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
+                                    <xsl:value-of select="concat('fill:#8c8c8c;stroke-width:0.254622;stroke-linecap:square;stroke-dashoffset:9.8', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
                                  </xsl:when>
                                  <xsl:otherwise>
-                                    <xsl:text>display:inline;fill:#8c8c8c;stroke-width:0.254622;stroke-linecap:square;stroke-dashoffset:9.8</xsl:text>
+                                    <xsl:text>fill:#8c8c8c;stroke-width:0.254622;stroke-linecap:square;stroke-dashoffset:9.8</xsl:text>
                                  </xsl:otherwise>
                               </xsl:choose>
                            </xsl:attribute>
@@ -6528,2806 +6186,6 @@
                   </xsl:choose>
                </xsl:for-each>
             </g>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 1][Key = '42d07c1a-156b-4057-aaca-7a2024751423']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="42d07c1a-156b-4057-aaca-7a2024751423"
-         transform="matrix(0.87556578,0,0,0.87556578,25.931173,53.563356)"
-         class="super"
-         data-index="1"
-         style="display:inline"
-         id="g1274-6">
-         <g id="g3338-9-6-03"
-            class="frame"
-            style="stroke-width:0.372594;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                  id="path3329-1-0-4"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 43.501323,30.689288 V 22.628842"
-                  id="path3331-3-5-7"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 43.501323,25.843611 h 0.565658"
-                  id="path3333-0-0-3"/>
-         </g>
-         <g id="g3338-9-6-03"
-            class="frame"
-            style="stroke-width:0.372594;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                  id="path3329-1-0-4"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 43.501323,30.689288 V 22.628842"
-                  id="path3331-3-5-7"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 43.501323,25.843611 h 0.565658"
-                  id="path3333-0-0-3"/>
-         </g>
-         <g id="g3346-8-8-05" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q"
-                           width="3.3044353"
-                           height="1.4570738"
-                           x="46.217739"
-                           y="24.734459"
-                           id="rect284-1-4-5">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ"
-                           width="2.7278225"
-                           height="1.5302418"
-                           x="41.516125"
-                           y="31.026209"
-                           id="rect286-9-3-26">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 1][Key = 'c9d04445-3558-46b4-b6fc-7dca8617d438']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="c9d04445-3558-46b4-b6fc-7dca8617d438"
-         transform="matrix(1.2104205,0,0,1.1099852,-89.024767,11.783876)"
-         class="super"
-         data-index="1"
-         id="g1284-0"
-         style="display:inline">
-         <g id="g9491-9-4-9"
-            class="frame"
-            style="stroke-width:0.281447;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                  id="path8570-8-6-63"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                  id="path8572-8-2-1"/>
-            <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                  id="rect8574-5-6-18"
-                  width="3.2156999"
-                  height="0.72076529"
-                  x="127.43145"
-                  y="59.867943"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                  id="path8576-5-9-2"/>
-         </g>
-         <g id="g9491-9-4-9"
-            class="frame"
-            style="stroke-width:0.281447;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                  id="path8570-8-6-63"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                  id="path8572-8-2-1"/>
-            <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                  id="rect8574-5-6-18"
-                  width="3.2156999"
-                  height="0.72076529"
-                  x="127.43145"
-                  y="59.867943"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                  id="path8576-5-9-2"/>
-         </g>
-         <g id="g9495-3-4-4" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect9483-3-5-5"
-                           width="1.5123487"
-                           height="1.2545443"
-                           x="125.11822"
-                           y="61.613804"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect9485-3-6-9"
-                           width="1.5368167"
-                           height="1.2388625"
-                           x="128.37125"
-                           y="57.614944"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 1][Key = '9ebcea74-e9c9-45b3-b616-e12e3f491024']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="9ebcea74-e9c9-45b3-b616-e12e3f491024"
-         transform="matrix(0.96538045,0,0,0.96538045,107.64197,14.747096)"
-         class="super"
-         data-index="1"
-         id="g1293-6"
-         style="display:inline">
-         <g id="g5905-4-4-37"
-            style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-            transform="translate(-245.38886,-5.3945402)"
-            class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                  id="path4717-1-2-3"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 199.93844,72.366392 V 66.201069"
-                  id="path4719-8-9-2"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.62796,68.906714 h 0.73186"
-                  id="path4721-4-0-29"/>
-         </g>
-         <g id="g5905-4-4-37"
-            style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-            transform="translate(-245.38886,-5.3945402)"
-            class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                  id="path4717-1-2-3"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 199.93844,72.366392 V 66.201069"
-                  id="path4719-8-9-2"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.62796,68.906714 h 0.73186"
-                  id="path4721-4-0-29"/>
-         </g>
-         <g id="g5967-3-6-86"
-            transform="translate(-245.38886,-5.3945402)"
-            class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect5961-4-2-2"
-                           width="1.0423387"
-                           height="1.0423387"
-                           x="199.76102"
-                           y="72.854294"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect5963-1-2-1"
-                           width="1.7520161"
-                           height="1.108871"
-                           x="201.31345"
-                           y="70.281715"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 1][Key = '59344a67-9e7b-43df-9f7c-505ad9a0ab87']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="59344a67-9e7b-43df-9f7c-505ad9a0ab87"
-         transform="matrix(1.0548651,0,0,1.0548651,17.165806,38.108493)"
-         class="super"
-         data-index="1"
-         id="g1301-7"
-         style="display:inline">
-         <g id="g8273-6-6-1" class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                  id="path8267-2-3-24"/>
-            <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                  id="path8269-5-1-87"/>
-         </g>
-         <g id="g8273-6-6-1" class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                  id="path8267-2-3-24"/>
-            <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                  id="path8269-5-1-87"/>
-         </g>
-         <g id="g8281-7-9-7" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8275-2-6-70"
-                           width="1.113408"
-                           height="1.2859079"
-                           x="43.940414"
-                           y="39.047688"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8277-9-5-55"
-                           width="1.3643168"
-                           height="1.0663626"
-                           x="44.944046"
-                           y="36.914967"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 1][Key = '42d07c1a-156b-4057-aaca-7a2024751423']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="42d07c1a-156b-4057-aaca-7a2024751423"
-         transform="matrix(0.74933812,0,0,0.74933812,67.627096,16.201382)"
-         class="super"
-         data-index="1"
-         style="display:inline"
-         id="g1274-2">
-         <g id="g3338-9-6-5"
-            class="frame"
-            style="stroke-width:0.372594;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                  id="path3329-1-0-15"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 43.501323,30.689288 V 22.628842"
-                  id="path3331-3-5-0"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 43.501323,25.843611 h 0.565658"
-                  id="path3333-0-0-4"/>
-         </g>
-         <g id="g3338-9-6-5"
-            class="frame"
-            style="stroke-width:0.372594;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                  id="path3329-1-0-15"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 43.501323,30.689288 V 22.628842"
-                  id="path3331-3-5-0"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 43.501323,25.843611 h 0.565658"
-                  id="path3333-0-0-4"/>
-         </g>
-         <g id="g3346-8-8-1" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q"
-                           width="3.3044353"
-                           height="1.4570738"
-                           x="46.217739"
-                           y="24.734459"
-                           id="rect284-1-4-4">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ"
-                           width="2.7278225"
-                           height="1.5302418"
-                           x="41.516125"
-                           y="31.026209"
-                           id="rect286-9-3-9">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 1][Key = 'c9d04445-3558-46b4-b6fc-7dca8617d438']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="c9d04445-3558-46b4-b6fc-7dca8617d438"
-         transform="matrix(1.0359178,0,0,0.94996204,-30.756092,-19.554878)"
-         class="super"
-         data-index="1"
-         id="g1284-5"
-         style="display:inline">
-         <g id="g9491-9-4-7"
-            class="frame"
-            style="stroke-width:0.281447;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                  id="path8570-8-6-83"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                  id="path8572-8-2-6"/>
-            <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                  id="rect8574-5-6-9"
-                  width="3.2156999"
-                  height="0.72076529"
-                  x="127.43145"
-                  y="59.867943"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                  id="path8576-5-9-7"/>
-         </g>
-         <g id="g9491-9-4-7"
-            class="frame"
-            style="stroke-width:0.281447;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                  id="path8570-8-6-83"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                  id="path8572-8-2-6"/>
-            <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                  id="rect8574-5-6-9"
-                  width="3.2156999"
-                  height="0.72076529"
-                  x="127.43145"
-                  y="59.867943"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                  id="path8576-5-9-7"/>
-         </g>
-         <g id="g9495-3-4-8" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect9483-3-5-2"
-                           width="1.5123487"
-                           height="1.2545443"
-                           x="125.11822"
-                           y="61.613804"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect9485-3-6-1"
-                           width="1.5368167"
-                           height="1.2388625"
-                           x="128.37125"
-                           y="57.614944"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 1][Key = '9ebcea74-e9c9-45b3-b616-e12e3f491024']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="9ebcea74-e9c9-45b3-b616-e12e3f491024"
-         transform="matrix(0.82620448,0,0,0.82620448,137.55779,-17.018856)"
-         class="super"
-         data-index="1"
-         id="g1293-5"
-         style="display:inline">
-         <g id="g5905-4-4-4"
-            style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-            transform="translate(-245.38886,-5.3945402)"
-            class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                  id="path4717-1-2-2"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 199.93844,72.366392 V 66.201069"
-                  id="path4719-8-9-66"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.62796,68.906714 h 0.73186"
-                  id="path4721-4-0-4"/>
-         </g>
-         <g id="g5905-4-4-4"
-            style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-            transform="translate(-245.38886,-5.3945402)"
-            class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                  id="path4717-1-2-2"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 199.93844,72.366392 V 66.201069"
-                  id="path4719-8-9-66"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.62796,68.906714 h 0.73186"
-                  id="path4721-4-0-4"/>
-         </g>
-         <g id="g5967-3-6-1"
-            transform="translate(-245.38886,-5.3945402)"
-            class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect5961-4-2-8"
-                           width="1.0423387"
-                           height="1.0423387"
-                           x="199.76102"
-                           y="72.854294"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect5963-1-2-8"
-                           width="1.7520161"
-                           height="1.108871"
-                           x="201.31345"
-                           y="70.281715"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 1][Key = '59344a67-9e7b-43df-9f7c-505ad9a0ab87']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="59344a67-9e7b-43df-9f7c-505ad9a0ab87"
-         transform="matrix(0.90278837,0,0,0.90278837,60.125409,2.9745975)"
-         class="super"
-         data-index="1"
-         id="g1301-3"
-         style="display:inline">
-         <g id="g8273-6-6-69" class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                  id="path8267-2-3-28"/>
-            <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                  id="path8269-5-1-8"/>
-         </g>
-         <g id="g8273-6-6-69" class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                  id="path8267-2-3-28"/>
-            <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                  id="path8269-5-1-8"/>
-         </g>
-         <g id="g8281-7-9-3" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8275-2-6-8"
-                           width="1.113408"
-                           height="1.2859079"
-                           x="43.940414"
-                           y="39.047688"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8277-9-5-5"
-                           width="1.3643168"
-                           height="1.0663626"
-                           x="44.944046"
-                           y="36.914967"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 1][Key = '42d07c1a-156b-4057-aaca-7a2024751423']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="42d07c1a-156b-4057-aaca-7a2024751423"
-         transform="matrix(1.0735559,0,0,1.0735559,68.772732,-5.114387)"
-         class="super"
-         data-index="1"
-         style="display:inline"
-         id="g1274-3">
-         <g id="g3338-9-6-0"
-            class="frame"
-            style="stroke-width:0.372594;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                  id="path3329-1-0-1"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 43.501323,30.689288 V 22.628842"
-                  id="path3331-3-5-8"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 43.501323,25.843611 h 0.565658"
-                  id="path3333-0-0-2"/>
-         </g>
-         <g id="g3338-9-6-0"
-            class="frame"
-            style="stroke-width:0.372594;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                  id="path3329-1-0-1"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 43.501323,30.689288 V 22.628842"
-                  id="path3331-3-5-8"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 43.501323,25.843611 h 0.565658"
-                  id="path3333-0-0-2"/>
-         </g>
-         <g id="g3346-8-8-7" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q"
-                           width="3.3044353"
-                           height="1.4570738"
-                           x="46.217739"
-                           y="24.734459"
-                           id="rect284-1-4-6">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ"
-                           width="2.7278225"
-                           height="1.5302418"
-                           x="41.516125"
-                           y="31.026209"
-                           id="rect286-9-3-2">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 1][Key = 'c9d04445-3558-46b4-b6fc-7dca8617d438']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="c9d04445-3558-46b4-b6fc-7dca8617d438"
-         transform="matrix(1.4841307,0,0,1.3609842,-72.178011,-56.341388)"
-         class="super"
-         data-index="1"
-         id="g1284-3"
-         style="display:inline">
-         <g id="g9491-9-4-2"
-            class="frame"
-            style="stroke-width:0.281447;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                  id="path8570-8-6-6"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                  id="path8572-8-2-7"/>
-            <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                  id="rect8574-5-6-0"
-                  width="3.2156999"
-                  height="0.72076529"
-                  x="127.43145"
-                  y="59.867943"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                  id="path8576-5-9-5"/>
-         </g>
-         <g id="g9491-9-4-2"
-            class="frame"
-            style="stroke-width:0.281447;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                  id="path8570-8-6-6"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                  id="path8572-8-2-7"/>
-            <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                  id="rect8574-5-6-0"
-                  width="3.2156999"
-                  height="0.72076529"
-                  x="127.43145"
-                  y="59.867943"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                  id="path8576-5-9-5"/>
-         </g>
-         <g id="g9495-3-4-5" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect9483-3-5-6"
-                           width="1.5123487"
-                           height="1.2545443"
-                           x="125.11822"
-                           y="61.613804"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect9485-3-6-3"
-                           width="1.5368167"
-                           height="1.2388625"
-                           x="128.37125"
-                           y="57.614944"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 1][Key = '9ebcea74-e9c9-45b3-b616-e12e3f491024']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="9ebcea74-e9c9-45b3-b616-e12e3f491024"
-         transform="matrix(1.1836802,0,0,1.1836802,168.96062,-52.708098)"
-         class="super"
-         data-index="1"
-         id="g1293-8"
-         style="display:inline">
-         <g id="g5905-4-4-3"
-            style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-            transform="translate(-245.38886,-5.3945402)"
-            class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                  id="path4717-1-2-5"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 199.93844,72.366392 V 66.201069"
-                  id="path4719-8-9-4"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.62796,68.906714 h 0.73186"
-                  id="path4721-4-0-2"/>
-         </g>
-         <g id="g5905-4-4-3"
-            style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-            transform="translate(-245.38886,-5.3945402)"
-            class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                  id="path4717-1-2-5"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 199.93844,72.366392 V 66.201069"
-                  id="path4719-8-9-4"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.62796,68.906714 h 0.73186"
-                  id="path4721-4-0-2"/>
-         </g>
-         <g id="g5967-3-6-7"
-            transform="translate(-245.38886,-5.3945402)"
-            class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect5961-4-2-0"
-                           width="1.0423387"
-                           height="1.0423387"
-                           x="199.76102"
-                           y="72.854294"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect5963-1-2-5"
-                           width="1.7520161"
-                           height="1.108871"
-                           x="201.31345"
-                           y="70.281715"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 01][Key = '59344a67-9e7b-43df-9f7c-505ad9a0ab87']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="59344a67-9e7b-43df-9f7c-505ad9a0ab87"
-         transform="matrix(1.2933998,0,0,1.2933998,58.025268,-24.064031)"
-         class="super"
-         data-index="01"
-         id="g1301-1"
-         style="display:inline">
-         <g id="g8273-6-6-6" class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                  id="path8267-2-3-5"/>
-            <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                  id="path8269-5-1-7"/>
-         </g>
-         <g id="g8273-6-6-6" class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                  id="path8267-2-3-5"/>
-            <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                  id="path8269-5-1-7"/>
-         </g>
-         <g id="g8281-7-9-5" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8275-2-6-6"
-                           width="1.113408"
-                           height="1.2859079"
-                           x="43.940414"
-                           y="39.047688"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8277-9-5-9"
-                           width="1.3643168"
-                           height="1.0663626"
-                           x="44.944046"
-                           y="36.914967"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 2][Key = '42d07c1a-156b-4057-aaca-7a2024751423']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="42d07c1a-156b-4057-aaca-7a2024751423"
-         transform="matrix(0.85864263,0,0,0.85864263,-8.7233717,42.53063)"
-         class="super"
-         data-index="2"
-         style="display:inline"
-         id="g1274-5">
-         <g id="g3338-9-6-4"
-            class="frame"
-            style="stroke-width:0.372594;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                  id="path3329-1-0-6"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 43.501323,30.689288 V 22.628842"
-                  id="path3331-3-5-1"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 43.501323,25.843611 h 0.565658"
-                  id="path3333-0-0-21"/>
-         </g>
-         <g id="g3338-9-6-4"
-            class="frame"
-            style="stroke-width:0.372594;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                  id="path3329-1-0-6"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 43.501323,30.689288 V 22.628842"
-                  id="path3331-3-5-1"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 43.501323,25.843611 h 0.565658"
-                  id="path3333-0-0-21"/>
-         </g>
-         <g id="g3346-8-8-6" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q"
-                           width="3.3044353"
-                           height="1.4570738"
-                           x="46.217739"
-                           y="24.734459"
-                           id="rect284-1-4-9">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ"
-                           width="2.7278225"
-                           height="1.5302418"
-                           x="41.516125"
-                           y="31.026209"
-                           id="rect286-9-3-0">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 2][Key = 'c9d04445-3558-46b4-b6fc-7dca8617d438']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="c9d04445-3558-46b4-b6fc-7dca8617d438"
-         transform="matrix(1.1870252,0,0,1.0885312,-121.45743,1.5586723)"
-         class="super"
-         data-index="2"
-         id="g1284-2"
-         style="display:inline">
-         <g id="g9491-9-4-6"
-            class="frame"
-            style="stroke-width:0.281447;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                  id="path8570-8-6-8"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                  id="path8572-8-2-2"/>
-            <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                  id="rect8574-5-6-1"
-                  width="3.2156999"
-                  height="0.72076529"
-                  x="127.43145"
-                  y="59.867943"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                  id="path8576-5-9-6"/>
-         </g>
-         <g id="g9491-9-4-6"
-            class="frame"
-            style="stroke-width:0.281447;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                  id="path8570-8-6-8"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                  id="path8572-8-2-2"/>
-            <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                  id="rect8574-5-6-1"
-                  width="3.2156999"
-                  height="0.72076529"
-                  x="127.43145"
-                  y="59.867943"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                  id="path8576-5-9-6"/>
-         </g>
-         <g id="g9495-3-4-0" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect9483-3-5-8"
-                           width="1.5123487"
-                           height="1.2545443"
-                           x="125.11822"
-                           y="61.613804"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect9485-3-6-7"
-                           width="1.5368167"
-                           height="1.2388625"
-                           x="128.37125"
-                           y="57.614944"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 2][Key = '9ebcea74-e9c9-45b3-b616-e12e3f491024']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="9ebcea74-e9c9-45b3-b616-e12e3f491024"
-         transform="matrix(0.94672133,0,0,0.94672133,71.408075,4.4646187)"
-         class="super"
-         data-index="2"
-         id="g1293-83"
-         style="display:inline">
-         <g id="g5905-4-4-6"
-            style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-            transform="translate(-245.38886,-5.3945402)"
-            class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                  id="path4717-1-2-4"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 199.93844,72.366392 V 66.201069"
-                  id="path4719-8-9-6"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.62796,68.906714 h 0.73186"
-                  id="path4721-4-0-25"/>
-         </g>
-         <g id="g5905-4-4-6"
-            style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-            transform="translate(-245.38886,-5.3945402)"
-            class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                  id="path4717-1-2-4"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 199.93844,72.366392 V 66.201069"
-                  id="path4719-8-9-6"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.62796,68.906714 h 0.73186"
-                  id="path4721-4-0-25"/>
-         </g>
-         <g id="g5967-3-6-8"
-            transform="translate(-245.38886,-5.3945402)"
-            class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect5961-4-2-3"
-                           width="1.0423387"
-                           height="1.0423387"
-                           x="199.76102"
-                           y="72.854294"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect5963-1-2-7"
-                           width="1.7520161"
-                           height="1.108871"
-                           x="201.31345"
-                           y="70.281715"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 2][Key = '59344a67-9e7b-43df-9f7c-505ad9a0ab87']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="59344a67-9e7b-43df-9f7c-505ad9a0ab87"
-         transform="matrix(1.0344764,0,0,1.0344764,-17.319319,27.374479)"
-         class="super"
-         data-index="2"
-         id="g1301-6"
-         style="display:inline">
-         <g id="g8273-6-6-3" class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                  id="path8267-2-3-2"/>
-            <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                  id="path8269-5-1-1"/>
-         </g>
-         <g id="g8273-6-6-3" class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                  id="path8267-2-3-2"/>
-            <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                  id="path8269-5-1-1"/>
-         </g>
-         <g id="g8281-7-9-1" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8275-2-6-7"
-                           width="1.113408"
-                           height="1.2859079"
-                           x="43.940414"
-                           y="39.047688"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8277-9-5-98"
-                           width="1.3643168"
-                           height="1.0663626"
-                           x="44.944046"
-                           y="36.914967"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 2][Key = '42d07c1a-156b-4057-aaca-7a2024751423']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="42d07c1a-156b-4057-aaca-7a2024751423"
-         transform="matrix(0.77396653,0,0,0.77396653,48.642677,9.0246907)"
-         class="super"
-         data-index="2"
-         style="display:inline"
-         id="g1274">
-         <g id="g3338-9-6"
-            class="frame"
-            style="stroke-width:0.372594;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                  id="path3329-1-0"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 43.501323,30.689288 V 22.628842"
-                  id="path3331-3-5"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 43.501323,25.843611 h 0.565658"
-                  id="path3333-0-0"/>
-         </g>
-         <g id="g3338-9-6"
-            class="frame"
-            style="stroke-width:0.372594;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                  id="path3329-1-0"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 43.501323,30.689288 V 22.628842"
-                  id="path3331-3-5"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 43.501323,25.843611 h 0.565658"
-                  id="path3333-0-0"/>
-         </g>
-         <g id="g3346-8-8" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q"
-                           width="3.3044353"
-                           height="1.4570738"
-                           x="46.217739"
-                           y="24.734459"
-                           id="rect284-1-4">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ"
-                           width="2.7278225"
-                           height="1.5302418"
-                           x="41.516125"
-                           y="31.026209"
-                           id="rect286-9-3">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 2][Key = 'c9d04445-3558-46b4-b6fc-7dca8617d438']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="c9d04445-3558-46b4-b6fc-7dca8617d438"
-         transform="matrix(1.0699652,0,0,0.98118433,-52.973975,-27.906766)"
-         class="super"
-         data-index="2"
-         id="g1284"
-         style="display:inline">
-         <g id="g9491-9-4"
-            class="frame"
-            style="stroke-width:0.281447;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                  id="path8570-8-6"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                  id="path8572-8-2"/>
-            <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                  id="rect8574-5-6"
-                  width="3.2156999"
-                  height="0.72076529"
-                  x="127.43145"
-                  y="59.867943"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                  id="path8576-5-9"/>
-         </g>
-         <g id="g9491-9-4"
-            class="frame"
-            style="stroke-width:0.281447;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                  id="path8570-8-6"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                  id="path8572-8-2"/>
-            <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                  id="rect8574-5-6"
-                  width="3.2156999"
-                  height="0.72076529"
-                  x="127.43145"
-                  y="59.867943"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                  id="path8576-5-9"/>
-         </g>
-         <g id="g9495-3-4" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect9483-3-5"
-                           width="1.5123487"
-                           height="1.2545443"
-                           x="125.11822"
-                           y="61.613804"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect9485-3-6"
-                           width="1.5368167"
-                           height="1.2388625"
-                           x="128.37125"
-                           y="57.614944"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 2][Key = '9ebcea74-e9c9-45b3-b616-e12e3f491024']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="9ebcea74-e9c9-45b3-b616-e12e3f491024"
-         transform="matrix(0.85335925,0,0,0.85335925,120.87186,-25.287393)"
-         class="super"
-         data-index="2"
-         id="g1293"
-         style="display:inline">
-         <g id="g5905-4-4"
-            style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-            transform="translate(-245.38886,-5.3945402)"
-            class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                  id="path4717-1-2"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 199.93844,72.366392 V 66.201069"
-                  id="path4719-8-9"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.62796,68.906714 h 0.73186"
-                  id="path4721-4-0"/>
-         </g>
-         <g id="g5905-4-4"
-            style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-            transform="translate(-245.38886,-5.3945402)"
-            class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                  id="path4717-1-2"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 199.93844,72.366392 V 66.201069"
-                  id="path4719-8-9"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.62796,68.906714 h 0.73186"
-                  id="path4721-4-0"/>
-         </g>
-         <g id="g5967-3-6"
-            transform="translate(-245.38886,-5.3945402)"
-            class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect5961-4-2"
-                           width="1.0423387"
-                           height="1.0423387"
-                           x="199.76102"
-                           y="72.854294"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect5963-1-2"
-                           width="1.7520161"
-                           height="1.108871"
-                           x="201.31345"
-                           y="70.281715"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 2][Key = '59344a67-9e7b-43df-9f7c-505ad9a0ab87']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="59344a67-9e7b-43df-9f7c-505ad9a0ab87"
-         transform="matrix(0.93246021,0,0,0.93246021,40.894428,-4.6368159)"
-         class="super"
-         data-index="2"
-         id="g1301"
-         style="display:inline">
-         <g id="g8273-6-6" class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                  id="path8267-2-3"/>
-            <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                  id="path8269-5-1"/>
-         </g>
-         <g id="g8273-6-6" class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                  id="path8267-2-3"/>
-            <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                  id="path8269-5-1"/>
-         </g>
-         <g id="g8281-7-9" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8275-2-6"
-                           width="1.113408"
-                           height="1.2859079"
-                           x="43.940414"
-                           y="39.047688"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8277-9-5"
-                           width="1.3643168"
-                           height="1.0663626"
-                           x="44.944046"
-                           y="36.914967"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 2][Key = '42d07c1a-156b-4057-aaca-7a2024751423']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="42d07c1a-156b-4057-aaca-7a2024751423"
-         transform="matrix(0.81317591,0,0,0.81317591,-7.2388847,16.509694)"
-         class="super"
-         data-index="2"
-         style="display:inline"
-         id="g1274-4">
-         <g id="g3338-9-6-2"
-            class="frame"
-            style="stroke-width:0.372594;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                  id="path3329-1-0-61"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 43.501323,30.689288 V 22.628842"
-                  id="path3331-3-5-9"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 43.501323,25.843611 h 0.565658"
-                  id="path3333-0-0-8"/>
-         </g>
-         <g id="g3338-9-6-2"
-            class="frame"
-            style="stroke-width:0.372594;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                  id="path3329-1-0-61"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 43.501323,30.689288 V 22.628842"
-                  id="path3331-3-5-9"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 43.501323,25.843611 h 0.565658"
-                  id="path3333-0-0-8"/>
-         </g>
-         <g id="g3346-8-8-0" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q"
-                           width="3.3044353"
-                           height="1.4570738"
-                           x="46.217739"
-                           y="24.734459"
-                           id="rect284-1-4-7">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ"
-                           width="2.7278225"
-                           height="1.5302418"
-                           x="41.516125"
-                           y="31.026209"
-                           id="rect286-9-3-8">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 2][Key = 'c9d04445-3558-46b4-b6fc-7dca8617d438']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="c9d04445-3558-46b4-b6fc-7dca8617d438"
-         transform="matrix(1.12417,0,0,1.0308914,-114.00347,-22.292722)"
-         class="super"
-         data-index="2"
-         id="g1284-57"
-         style="display:inline">
-         <g id="g9491-9-4-75"
-            class="frame"
-            style="stroke-width:0.281447;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                  id="path8570-8-6-0"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                  id="path8572-8-2-8"/>
-            <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                  id="rect8574-5-6-90"
-                  width="3.2156999"
-                  height="0.72076529"
-                  x="127.43145"
-                  y="59.867943"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                  id="path8576-5-9-4"/>
-         </g>
-         <g id="g9491-9-4-75"
-            class="frame"
-            style="stroke-width:0.281447;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                  id="path8570-8-6-0"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                  id="path8572-8-2-8"/>
-            <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                  id="rect8574-5-6-90"
-                  width="3.2156999"
-                  height="0.72076529"
-                  x="127.43145"
-                  y="59.867943"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                  id="path8576-5-9-4"/>
-         </g>
-         <g id="g9495-3-4-3" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect9483-3-5-7"
-                           width="1.5123487"
-                           height="1.2545443"
-                           x="125.11822"
-                           y="61.613804"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect9485-3-6-6"
-                           width="1.5368167"
-                           height="1.2388625"
-                           x="128.37125"
-                           y="57.614944"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 2][Key = '9ebcea74-e9c9-45b3-b616-e12e3f491024']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="9ebcea74-e9c9-45b3-b616-e12e3f491024"
-         transform="matrix(0.89659069,0,0,0.89659069,68.649455,-19.54065)"
-         class="super"
-         data-index="2"
-         id="g1293-2"
-         style="display:inline">
-         <g id="g5905-4-4-0"
-            style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-            transform="translate(-245.38886,-5.3945402)"
-            class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                  id="path4717-1-2-53"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 199.93844,72.366392 V 66.201069"
-                  id="path4719-8-9-9"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.62796,68.906714 h 0.73186"
-                  id="path4721-4-0-5"/>
-         </g>
-         <g id="g5905-4-4-0"
-            style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-            transform="translate(-245.38886,-5.3945402)"
-            class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                  id="path4717-1-2-53"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 199.93844,72.366392 V 66.201069"
-                  id="path4719-8-9-9"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.62796,68.906714 h 0.73186"
-                  id="path4721-4-0-5"/>
-         </g>
-         <g id="g5967-3-6-0"
-            transform="translate(-245.38886,-5.3945402)"
-            class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect5961-4-2-7"
-                           width="1.0423387"
-                           height="1.0423387"
-                           x="199.76102"
-                           y="72.854294"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect5963-1-2-50"
-                           width="1.7520161"
-                           height="1.108871"
-                           x="201.31345"
-                           y="70.281715"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 2][Key = '59344a67-9e7b-43df-9f7c-505ad9a0ab87']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="59344a67-9e7b-43df-9f7c-505ad9a0ab87"
-         transform="matrix(0.97969893,0,0,0.97969893,-15.379662,2.1560926)"
-         class="super"
-         data-index="2"
-         id="g1301-0"
-         style="display:inline">
-         <g id="g8273-6-6-2" class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                  id="path8267-2-3-20"/>
-            <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                  id="path8269-5-1-0"/>
-         </g>
-         <g id="g8273-6-6-2" class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                  id="path8267-2-3-20"/>
-            <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                  id="path8269-5-1-0"/>
-         </g>
-         <g id="g8281-7-9-8" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8275-2-6-3"
-                           width="1.113408"
-                           height="1.2859079"
-                           x="43.940414"
-                           y="39.047688"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8277-9-5-1"
-                           width="1.3643168"
-                           height="1.0663626"
-                           x="44.944046"
-                           y="36.914967"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 0][Key = '42d07c1a-156b-4057-aaca-7a2024751423']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="42d07c1a-156b-4057-aaca-7a2024751423"
-         transform="matrix(0.89502425,0,0,0.89502425,63.313051,52.328649)"
-         class="super"
-         data-index="0"
-         style="display:inline"
-         id="g1274-29">
-         <g id="g3338-9-6-7"
-            class="frame"
-            style="stroke-width:0.372594;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                  id="path3329-1-0-3"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 43.501323,30.689288 V 22.628842"
-                  id="path3331-3-5-5"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 43.501323,25.843611 h 0.565658"
-                  id="path3333-0-0-81"/>
-         </g>
-         <g id="g3338-9-6-7"
-            class="frame"
-            style="stroke-width:0.372594;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                  id="path3329-1-0-3"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 43.501323,30.689288 V 22.628842"
-                  id="path3331-3-5-5"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 43.501323,25.843611 h 0.565658"
-                  id="path3333-0-0-81"/>
-         </g>
-         <g id="g3346-8-8-5" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q"
-                           width="3.3044353"
-                           height="1.4570738"
-                           x="46.217739"
-                           y="24.734459"
-                           id="rect284-1-4-69">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ"
-                           width="2.7278225"
-                           height="1.5302418"
-                           x="41.516125"
-                           y="31.026209"
-                           id="rect286-9-3-7">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 0][Key = 'c9d04445-3558-46b4-b6fc-7dca8617d438']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="c9d04445-3558-46b4-b6fc-7dca8617d438"
-         transform="matrix(1.2373207,0,0,1.1346534,-54.197676,9.6206649)"
-         class="super"
-         data-index="0"
-         id="g1284-34"
-         style="display:inline">
-         <g id="g9491-9-4-3"
-            class="frame"
-            style="stroke-width:0.281447;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                  id="path8570-8-6-4"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                  id="path8572-8-2-0"/>
-            <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                  id="rect8574-5-6-5"
-                  width="3.2156999"
-                  height="0.72076529"
-                  x="127.43145"
-                  y="59.867943"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                  id="path8576-5-9-78"/>
-         </g>
-         <g id="g9491-9-4-3"
-            class="frame"
-            style="stroke-width:0.281447;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                  id="path8570-8-6-4"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                  id="path8572-8-2-0"/>
-            <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                  id="rect8574-5-6-5"
-                  width="3.2156999"
-                  height="0.72076529"
-                  x="127.43145"
-                  y="59.867943"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                  id="path8576-5-9-78"/>
-         </g>
-         <g id="g9495-3-4-81" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect9483-3-5-4"
-                           width="1.5123487"
-                           height="1.2545443"
-                           x="125.11822"
-                           y="61.613804"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect9485-3-6-8"
-                           width="1.5368167"
-                           height="1.2388625"
-                           x="128.37125"
-                           y="57.614944"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 0][Key = '9ebcea74-e9c9-45b3-b616-e12e3f491024']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="9ebcea74-e9c9-45b3-b616-e12e3f491024"
-         transform="matrix(0.98683494,0,0,0.98683494,146.83977,12.649739)"
-         class="super"
-         data-index="0"
-         id="g1293-1"
-         style="display:inline">
-         <g id="g5905-4-4-48"
-            style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-            transform="translate(-245.38886,-5.3945402)"
-            class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                  id="path4717-1-2-8"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 199.93844,72.366392 V 66.201069"
-                  id="path4719-8-9-28"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.62796,68.906714 h 0.73186"
-                  id="path4721-4-0-49"/>
-         </g>
-         <g id="g5905-4-4-48"
-            style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-            transform="translate(-245.38886,-5.3945402)"
-            class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                  id="path4717-1-2-8"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 199.93844,72.366392 V 66.201069"
-                  id="path4719-8-9-28"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.62796,68.906714 h 0.73186"
-                  id="path4721-4-0-49"/>
-         </g>
-         <g id="g5967-3-6-9"
-            transform="translate(-245.38886,-5.3945402)"
-            class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect5961-4-2-5"
-                           width="1.0423387"
-                           height="1.0423387"
-                           x="199.76102"
-                           y="72.854294"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect5963-1-2-56"
-                           width="1.7520161"
-                           height="1.108871"
-                           x="201.31345"
-                           y="70.281715"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 0][Key = '59344a67-9e7b-43df-9f7c-505ad9a0ab87']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="59344a67-9e7b-43df-9f7c-505ad9a0ab87"
-         transform="matrix(1.0783083,0,0,1.0783083,54.352882,36.530317)"
-         class="super"
-         data-index="0"
-         id="g1301-15"
-         style="display:inline">
-         <g id="g8273-6-6-8" class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                  id="path8267-2-3-7"/>
-            <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                  id="path8269-5-1-2"/>
-         </g>
-         <g id="g8273-6-6-8" class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                  id="path8267-2-3-7"/>
-            <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                  id="path8269-5-1-2"/>
-         </g>
-         <g id="g8281-7-9-9" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8275-2-6-9"
-                           width="1.113408"
-                           height="1.2859079"
-                           x="43.940414"
-                           y="39.047688"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8277-9-5-6"
-                           width="1.3643168"
-                           height="1.0663626"
-                           x="44.944046"
-                           y="36.914967"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 0][Key = '42d07c1a-156b-4057-aaca-7a2024751423']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="42d07c1a-156b-4057-aaca-7a2024751423"
-         transform="matrix(1.0735559,0,0,1.0735559,99.088384,7.767399)"
-         class="super"
-         data-index="0"
-         style="display:inline"
-         id="g1274-0">
-         <g id="g3338-9-6-6"
-            class="frame"
-            style="stroke-width:0.372594;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                  id="path3329-1-0-14"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 43.501323,30.689288 V 22.628842"
-                  id="path3331-3-5-2"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 43.501323,25.843611 h 0.565658"
-                  id="path3333-0-0-45"/>
-         </g>
-         <g id="g3338-9-6-6"
-            class="frame"
-            style="stroke-width:0.372594;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 38.514509,32.712242 V 30.70497 h 6.35113 V 28.948607 H 44.53632 v -0.972269 h 0.329319 V 25.843611 H 44.53632 v -1.254544 h 6.69613 v 1.238863 h -0.517498 v 2.069998 h 0.517498 v 1.082043 h -0.517498 v 3.732271 z"
-                  id="path3329-1-0-14"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 43.501323,30.689288 V 22.628842"
-                  id="path3331-3-5-2"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.372594;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 43.501323,25.843611 h 0.565658"
-                  id="path3333-0-0-45"/>
-         </g>
-         <g id="g3346-8-8-2" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q"
-                           width="3.3044353"
-                           height="1.4570738"
-                           x="46.217739"
-                           y="24.734459"
-                           id="rect284-1-4-51">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.703938;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ"
-                           width="2.7278225"
-                           height="1.5302418"
-                           x="41.516125"
-                           y="31.026209"
-                           id="rect286-9-3-1">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.600001;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 0][Key = 'c9d04445-3558-46b4-b6fc-7dca8617d438']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="c9d04445-3558-46b4-b6fc-7dca8617d438"
-         transform="matrix(1.4841307,0,0,1.3609842,-41.86236,-43.4596)"
-         class="super"
-         data-index="0"
-         id="g1284-01"
-         style="display:inline">
-         <g id="g9491-9-4-4"
-            class="frame"
-            style="stroke-width:0.281447;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                  id="path8570-8-6-9"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                  id="path8572-8-2-25"/>
-            <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                  id="rect8574-5-6-4"
-                  width="3.2156999"
-                  height="0.72076529"
-                  x="127.43145"
-                  y="59.867943"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                  id="path8576-5-9-9"/>
-         </g>
-         <g id="g9491-9-4-4"
-            class="frame"
-            style="stroke-width:0.281447;stroke-dasharray:none">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 131.20161,63.449596 h -7.54032 v -1.530241 h 0.66532 v -0.931453 l 1.46371,-2.284275 h 0.75403 v -0.709676 h 4.10283 v 2.594758 h 0.35483 v 0.709676 h -0.59878 v 0.53226 h 0.79838 z"
-                  id="path8570-8-6-9"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 130.40323,61.298385 h -5.05646 l -0.0222,-0.709676 h 5.32258"
-                  id="path8572-8-2-25"/>
-            <rect style="fill:#8c8c8c;fill-opacity:1;stroke:#8c8c8c;stroke-width:0.281447;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                  id="rect8574-5-6-4"
-                  width="3.2156999"
-                  height="0.72076529"
-                  x="127.43145"
-                  y="59.867943"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.281447;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 126.54435,58.703627 0.82057,0.465728 v 1.419352"
-                  id="path8576-5-9-9"/>
-         </g>
-         <g id="g9495-3-4-51" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect9483-3-5-87"
-                           width="1.5123487"
-                           height="1.2545443"
-                           x="125.11822"
-                           y="61.613804"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect9485-3-6-66"
-                           width="1.5368167"
-                           height="1.2388625"
-                           x="128.37125"
-                           y="57.614944"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 0][Key = '9ebcea74-e9c9-45b3-b616-e12e3f491024']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="9ebcea74-e9c9-45b3-b616-e12e3f491024"
-         transform="matrix(1.1836802,0,0,1.1836802,199.27625,-39.826312)"
-         class="super"
-         data-index="0"
-         id="g1293-9"
-         style="display:inline">
-         <g id="g5905-4-4-42"
-            style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-            transform="translate(-245.38886,-5.3945402)"
-            class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                  id="path4717-1-2-1"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 199.93844,72.366392 V 66.201069"
-                  id="path4719-8-9-97"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.62796,68.906714 h 0.73186"
-                  id="path4721-4-0-7"/>
-         </g>
-         <g id="g5905-4-4-42"
-            style="stroke:#8c8c8c;stroke-width:0.337929;stroke-dasharray:none;stroke-opacity:1"
-            transform="translate(-245.38886,-5.3945402)"
-            class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.16223,75.271634 v -2.860887 h 1.86291 v -1.131049 h -0.28831 V 70.48131 h 2.99395 v 0.798388 h -0.42137 v 3.991936 z"
-                  id="path4717-1-2-1"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="M 199.93844,72.366392 V 66.201069"
-                  id="path4719-8-9-97"/>
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.337929;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 199.62796,68.906714 h 0.73186"
-                  id="path4721-4-0-7"/>
-         </g>
-         <g id="g5967-3-6-3"
-            transform="translate(-245.38886,-5.3945402)"
-            class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect5961-4-2-6"
-                           width="1.0423387"
-                           height="1.0423387"
-                           x="199.76102"
-                           y="72.854294"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect5963-1-2-4"
-                           width="1.7520161"
-                           height="1.108871"
-                           x="201.31345"
-                           y="70.281715"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
-         </g>
-      </g>
-   </xsl:template>
-   <xsl:template match="HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = 0][Key = '59344a67-9e7b-43df-9f7c-505ad9a0ab87']">
-      <g xmlns="http://www.w3.org/2000/svg"
-         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-         xmlns:svg="http://www.w3.org/2000/svg"
-         data-hull="59344a67-9e7b-43df-9f7c-505ad9a0ab87"
-         transform="matrix(1.2933998,0,0,1.2933998,88.340919,-11.182247)"
-         class="super"
-         data-index="0"
-         id="g1301-5"
-         style="display:inline">
-         <g id="g8273-6-6-4" class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                  id="path8267-2-3-8"/>
-            <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                  id="path8269-5-1-00"/>
-         </g>
-         <g id="g8273-6-6-4" class="frame">
-            <path style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 42.999503,41.807688 v -1.301591 l 0.814425,-3.03947 v -0.583026 h 2.510118 l 0.327834,0.567825 h 1.459892 v 0.718082 H 47.56291 v 0.893863 h 0.36068 v 0.721363 h -0.36068 v 2.022954 z"
-                  id="path8267-2-3-8"/>
-            <path style="fill:#8c8c8c;fill-opacity:1;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-                  d="m 44.567683,36.883601 v -0.893863 l -0.284577,-0.164303 v -0.353198 l 0.22253,-0.128479 v -1.314246 l 0.281932,-0.281932 v -0.408067 h 0.281935 v 3.497043"
-                  id="path8269-5-1-00"/>
-         </g>
-         <g id="g8281-7-9-37" class="sockets">
-            <xsl:for-each select="../../..//PartDamage">
-               <xsl:variable name="percent" select="HealthPercent"/>
-               <xsl:choose>
-                  <xsl:when test="Key = 'zj9tWS4kP0qww93h23r_mQ'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8275-2-6-4"
-                           width="1.113408"
-                           height="1.2859079"
-                           x="43.940414"
-                           y="39.047688"
-                           class="socket-zj9tWS4kP0qww93h23r_mQ">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-                  <xsl:when test="Key = '4dpVMvs8nUmd-5az35rT2Q'">
-                     <rect style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1"
-                           id="rect8277-9-5-2"
-                           width="1.3643168"
-                           height="1.0663626"
-                           x="44.944046"
-                           y="36.914967"
-                           class="socket-4dpVMvs8nUmd-5az35rT2Q">
-                        <xsl:attribute name="style">
-                           <xsl:choose>
-                              <xsl:when test="IsDestroyed = 'false'">
-                                 <xsl:value-of select="concat('fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1', '; fill: hsl(calc(', $percent, ' * 100 * 1.2), 100%, 50%);')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:text>fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-dashoffset:9.8;stroke-opacity:1</xsl:text>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:attribute>
-                     </rect>
-                  </xsl:when>
-               </xsl:choose>
-            </xsl:for-each>
          </g>
       </g>
    </xsl:template>

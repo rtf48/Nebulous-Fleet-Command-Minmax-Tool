@@ -20,9 +20,11 @@
     <xsl:include href="./resources/ships/bulk-freighter-dc-board.xsl" />
     <xsl:include href="./resources/ships/levy-dc-board.xsl" />
     <xsl:include href="./resources/ships/ore-carrier-dc-board.xsl" />
+
     <xsl:template match="/">
         <xsl:apply-templates select="FullAfterActionReport"/>
     </xsl:template>
+
     <xsl:template match="FullAfterActionReport">
         <html lang="en">
             <head>
@@ -38,6 +40,7 @@
             </body>
         </html>
     </xsl:template>
+
     <xsl:template match="LocalPlayerWon">
         <h1>
             <span class="battle-result">
@@ -55,11 +58,13 @@
             </span>
         </h1>
     </xsl:template>
+
     <xsl:template match="Teams">
         <div id="teams">
             <xsl:apply-templates select="TeamReportOfShipBattleReportCraftBattleReport"></xsl:apply-templates>
         </div>
     </xsl:template>
+
     <xsl:template match="TeamReportOfShipBattleReportCraftBattleReport">
         <div class="team">
             <h2>
@@ -73,6 +78,7 @@
             </div>
         </div>
     </xsl:template>
+
     <xsl:template match="AARPlayerReportOfShipBattleReportCraftBattleReport">
         <div class="player">
             <h3>
@@ -115,6 +121,7 @@
             </div>
         </div>
     </xsl:template>
+
     <xsl:template match="BaseColor|StripeColor">
         rgba(
          <xsl:value-of select="format-number(r, '0.000%')"></xsl:value-of>,
@@ -122,7 +129,7 @@
          <xsl:value-of select="format-number(b, '0.000%')"></xsl:value-of>
         )
     </xsl:template>
-    <!--bookmark-->
+
     <xsl:template match="ShipBattleReport">
         <div class="ship">
             <xsl:attribute name="data-ship-id">
@@ -215,6 +222,7 @@
             </div>
         </div>
     </xsl:template>
+
     <xsl:template match="ShipBattleReport" mode="details">
         <div>
             <xsl:attribute name="data-ship-id">
@@ -319,6 +327,7 @@
             <xsl:apply-templates select="Engineering" />
         </div>
     </xsl:template>
+
     <xsl:template match="ShipBattleReport" mode="elimination-status">
         <xsl:choose>
             <xsl:when test="Eliminated = 'Destroyed'">
@@ -373,6 +382,7 @@
             </xsl:when>
         </xsl:choose>
     </xsl:template>
+
     <xsl:template match="ShipBattleReport" mode="basic-stats">
         <dl class="basic-stats">
             <div class="stat crew-status">
@@ -436,6 +446,7 @@
             </div>
         </dl>
     </xsl:template>
+
     <xsl:template match="ShipBattleReport" mode="efficiency-ratings">
         <h4>Overall Efficiency Ratings</h4>
         <dl class="efficiency-ratings">
@@ -481,6 +492,7 @@
             </div>
         </dl>
     </xsl:template>
+
     <xsl:template name="efficiency-rating-gauge">
         <xsl:param name="section" />
         <xsl:choose>
@@ -508,6 +520,7 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+
     <xsl:template name='efficiency-color'>
         <xsl:param name='efficiency' />
         <xsl:choose>
@@ -535,6 +548,7 @@
             </xsl:choose>
         </span>
     </xsl:template>
+
     <xsl:template name='efficiency-label-long'>
         <xsl:param name='efficiency' />
         <span>
@@ -551,12 +565,14 @@
             </xsl:choose>
         </span>
     </xsl:template>
+
     <xsl:template match="EngagementHistory[EnemyEngagement]">
         <div class="engagement-history">
             <h2>Enemy Ships Engaged</h2>
             <xsl:apply-templates select="EnemyEngagement" />
         </div>
     </xsl:template>
+
     <xsl:template match="EnemyEngagement">
         <p class="engagement">
             <xsl:value-of select="substring-before(substring-after(normalize-space(Name),'&lt;noparse&gt;'),'&lt;/noparse&gt;')"/> - Last TN <xsl:value-of select="TN/@ID"/>
@@ -569,6 +585,7 @@
             </xsl:choose>
         </p>
     </xsl:template>
+
     <xsl:template match="AntiShip">
         <div class="anti-ship breakdown">
             <h2>
@@ -585,6 +602,7 @@
             </div>
         </div>
     </xsl:template>
+
     <xsl:template match="Strike">
         <div class="missile-warfare breakdown">
             <h2>
@@ -601,6 +619,7 @@
             </div>
         </div>
     </xsl:template>
+
     <xsl:template match="Sensors">
         <div class="sensor-warfare breakdown">
             <h2>
@@ -682,6 +701,7 @@
             </div>
         </div>
     </xsl:template>
+
     <xsl:template match="Defenses">
         <div class="missile-defense breakdown">
             <h2>
@@ -700,6 +720,7 @@
             </div>
         </div>
     </xsl:template>
+
     <xsl:template match="Engineering">
         <div class="engineering breakdown">
             <h2>Area Breakdown: Engineering -<xsl:text> </xsl:text>
@@ -811,6 +832,7 @@
             </div>
         </div>
     </xsl:template>
+
     <xsl:template match="DefensiveWeaponReport">
         <xsl:variable name="aurora">Stock/Mk90 'Aurora' PDT</xsl:variable>
         <xsl:variable name="defender">Stock/Mk20 'Defender' PDT</xsl:variable>
@@ -883,6 +905,7 @@
             </div>
         </div>
     </xsl:template>
+
     <xsl:template match="DefensiveMissileReport">
         <div class="weapon-report">
             <xsl:call-template name="weapon-image">
@@ -931,6 +954,7 @@
             </div>
         </div>
     </xsl:template>
+
     <xsl:template match="DecoyReport">
         <div class="weapon-report">
             <xsl:call-template name="weapon-image">
@@ -962,6 +986,7 @@
             </div>
         </div>
     </xsl:template>
+
     <xsl:template name="pd-stats-energy">
         <xsl:param name="pd" />
         <div class="own-line">
@@ -984,6 +1009,7 @@
             </dd>
         </div>
     </xsl:template>
+
     <xsl:template name="pd-stats-bullets">
         <xsl:param name="pd" />
         <div class="own-line">
@@ -1007,6 +1033,7 @@
             </dd>
         </div>
     </xsl:template>
+
     <xsl:template match="WeaponReport[@xsi:type='ContinuousWeaponReport']" mode="ewar">
         <div class="weapon-report continuous">
             <xsl:call-template name="weapon-image">
@@ -1039,6 +1066,7 @@
             </div>
         </div>
     </xsl:template>
+
     <xsl:template match="WeaponReport[@xsi:type='DiscreteWeaponReport']">
         <div class="weapon-report discrete">
             <xsl:call-template name="weapon-image">
@@ -1093,6 +1121,7 @@
             </div>
         </div>
     </xsl:template>
+
     <xsl:template match="WeaponReport[@xsi:type='ContinuousWeaponReport']">
         <div class="weapon-report continuous">
             <xsl:call-template name="weapon-image">
@@ -1146,6 +1175,7 @@
             </div>
         </div>
     </xsl:template>
+
     <xsl:template match="OffensiveMissileReport">
         <xsl:variable name="desc">
             <p>
@@ -1349,6 +1379,7 @@
             </div>
         </dl>
     </xsl:template>
+
     <xsl:template match="CraftBattleReport" mode="efficiency-ratings">
         <h4>Overall Efficiency Ratings</h4>
         <dl class="efficiency-ratings">
@@ -1370,6 +1401,7 @@
             </div>
         </dl>
     </xsl:template>
+
     <xsl:template match="StrikeReport">
         <div class="strike-warfare breakdown">
             <h2>
@@ -1422,6 +1454,7 @@
             <xsl:otherwise></xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+
     <xsl:template match="CraftMissileReport" name="missile-report">
         <xsl:variable name="desc">
             <p>
@@ -1498,7 +1531,7 @@
                 </xsl:choose>
             </h4>
         </div>
-        <div class="engagement">
+        <div class="craft-engagement">
             <div class="participants">
 
                 <xsl:choose>
@@ -1603,6 +1636,7 @@
             </div>
         </div>
     </xsl:template>
+
     <xsl:template match="Participant" name="draw-circle">
         <xsl:param name="color" select="'black'"/>
         <xsl:param name="design" select="true()"/>
@@ -1797,6 +1831,7 @@
             </xsl:attribute>
         </img>
     </xsl:template>
+
     <xsl:template name="timestamp-from-seconds">
         <xsl:param name="seconds" />
         <xsl:if test="$seconds &lt; 0">-</xsl:if>
@@ -1810,6 +1845,7 @@
             <xsl:otherwise><xsl:value-of select="$minutes" /></xsl:otherwise>
         </xsl:choose>:<xsl:value-of select="format-number($seconds-left, '00')" />
     </xsl:template>
+
     <xsl:template name="missile-desc">
         <xsl:param name="desc" />
         <xsl:variable name="cleaned-desc">
@@ -1858,6 +1894,7 @@
             <xsl:otherwise><xsl:value-of select="translate($rest, '-', '&#x2013;')" /></xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+
     <xsl:template name="missile-desc-before-color">
         <xsl:param name="desc" />
         <xsl:value-of select="substring-before($desc, '&lt;color')" />
@@ -1874,6 +1911,7 @@
         <xsl:param name="desc" />
         <xsl:value-of select="substring-before(substring-after($desc, '&gt;'), '&lt;')" />
     </xsl:template>
+
     <xsl:template name="replace">
         <xsl:param name="text"/>
         <xsl:param name="find"/>
@@ -1893,6 +1931,7 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+
     <xsl:template name="replace-missile-sockets">
         <xsl:param name="text"/>
         <xsl:variable name="hei_rep">
@@ -1981,4 +2020,5 @@
         </xsl:variable>
         <xsl:value-of select="$none_rep" />
     </xsl:template>
+
 </xsl:stylesheet>
