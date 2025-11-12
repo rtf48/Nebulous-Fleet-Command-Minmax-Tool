@@ -33,7 +33,7 @@
 
             <xsl:apply-templates select="//svg:g[@id='sockets']" mode="template"/>
             <xsl:apply-templates select="//svg:g[contains(@class, 'hull')]" mode="template"/>
-            <xsl:apply-templates select="//svg:g[contains(@class, 'super')]" mode="template"/>
+            <!-- <xsl:apply-templates select="//svg:g[contains(@class, 'super')]" mode="template"/> -->
         </xsl:element>
     </xsl:template>
 
@@ -93,7 +93,6 @@
                 <xsl:element name="xsl:if">
                     <xsl:attribute name="test">../../..//HullConfig/SecondaryStructure/SecondaryStructureConfig[Segment = <xsl:value-of select="./@data-index" />][Key = '<xsl:value-of select="./@data-hull" />']</xsl:attribute>
                     <xsl:copy>
-                        <xsl:apply-templates select="@*" />
                         <xsl:apply-templates select="svg:g[@class='frame']" />
                         <xsl:apply-templates select="svg:g" mode="template" />
                     </xsl:copy>
